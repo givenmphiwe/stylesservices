@@ -188,6 +188,8 @@ export const Home = () => {
           </div>
         </div>
       </footer>
+
+      
     </>
   );
 };
