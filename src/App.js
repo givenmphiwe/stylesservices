@@ -7,12 +7,15 @@ import {
 } from "react-router-dom";
 import {Home} from './components/home'
 import { Contact } from "./components/contact";
+import {About} from "./components/About-us"
 
 const App = () => {
   let routes = useRoutes([
     
     { path: "/", element: <Home /> },
-    { path: "Contact", element: <Contact />}
+    { path: "Contact", element: <Contact />},
+    { path: "About", element: <About />}
+
     
   ]);
   return routes;

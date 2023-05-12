@@ -30,7 +30,7 @@ export const Home = () => {
           >
             <li>Training</li>
             <li>Courses</li>
-            <li>About-us</li>
+            <li onClick={() => navigate('About')}>About-us</li>
             <li>services</li>
           </ul>
 
@@ -47,7 +47,7 @@ export const Home = () => {
         <img className="Drink-img" src={DrinksImg} alt="" />
         <p className="Styles-text">STYLES SERVICES GROUP</p>
         <p className="hospitality-text">Hospitality Solutions</p>
-        <p className="ContactUs-btn">Contact us</p>
+        <p className="ContactUs-btn" onClick={() => navigate('contact')}>Contact us</p>
       </div>
 
       <div className="container-1">
