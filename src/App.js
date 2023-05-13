@@ -8,13 +8,16 @@ import {
 import {Home} from './components/home'
 import { Contact } from "./components/contact";
 import {About} from "./components/About-us"
+import {Services} from "./components/Service"
 
 const App = () => {
   let routes = useRoutes([
     
     { path: "/", element: <Home /> },
     { path: "Contact", element: <Contact />},
-    { path: "About", element: <About />}
+    { path: "About", element: <About />},
+    { path: "Service", element: <Services />}
+
 
     
   ]);
