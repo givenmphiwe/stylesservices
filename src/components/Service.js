@@ -22,15 +22,15 @@ export const Services = () => {
     <>
       <nav className="navbar">
         <div className="container">
-          <img className="Logo-img" src={Logo} alt="styles-service-logo.png" />
+        <img className="Logo-img" src={Logo} alt="styles-service-logo.png" />
 
           <ul
             className={Mobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setMobile(false)}
           >
-            <li onClick={() => navigate("Course")}>Courses</li>
-            <li onClick={() => navigate("About")}>About</li>
-            <li onClick={() => navigate("Service")}>services</li>
+            <li onClick={() => navigate("/Course")}>Courses</li>
+            <li onClick={() => navigate("/About")}>About</li>
+            <li onClick={() => navigate("/Training")}>Training</li>
           </ul>
 
           <button
@@ -43,7 +43,7 @@ export const Services = () => {
       </nav>
 
       <div className="container-2">
-        <img className="Drink-img" src={DrinksImg} alt="" />
+        {/* <img className="Drink-img" src={DrinksImg} alt="" />*/}
         <p className="Styles-text">SSG</p>
         <p className="hospitality-text">Hospitality Training</p>
         <p className="ContactUs-btn" onClick={() => navigate("/")}>
@@ -112,17 +112,17 @@ export const Services = () => {
             <div className="col">
               <h3>Links</h3>
               <ul>
-                <li>
+                <li className="link-s">
                   <a onClick={() => navigate("/")}>Home</a>
                 </li>
-                <li>
-                  <a onClick={() => navigate("About")}>About us</a>
+                <li className="link-s">
+                  <a onClick={() => navigate("/About")}>About us</a>
                 </li>
-                <li>
-                  <a onClick={() => navigate("Training")}>Training</a>
+                <li className="link-s">
+                  <a onClick={() => navigate("/Training")}>Training</a>
                 </li>
-                <li>
-                  <a onClick={() => navigate("Contact")}>Contact us</a>
+                <li className="link-s">
+                  <a onClick={() => navigate("/Contact")}>Contact us</a>
                 </li>
               </ul>
             </div>

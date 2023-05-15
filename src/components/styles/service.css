@@ -22,7 +22,9 @@
     font-weight: 600;
     color: rgba(255,0,82);
 }
-
+.container-2{
+    min-height: 60vh;
+}
 .content-box {
     display: flex;
     justify-content: space-between;

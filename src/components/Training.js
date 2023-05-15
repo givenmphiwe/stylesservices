@@ -108,9 +108,9 @@ export const Training = () => {
             <h3>Links</h3>
             <ul>
               <li className="link-s"><a onClick={() => navigate("/")}>Home</a></li>
-              <li className="link-s"><a onClick={() => navigate("Service")}>Services</a></li>
-              <li className="link-s"><a onClick={() => navigate("About")}>About us</a></li>
-              <li className="link-s"><a onClick={() => navigate("Contact")}>Contact us</a></li>
+              <li className="link-s"><a onClick={() => navigate("/Service")}>Services</a></li>
+              <li className="link-s"><a onClick={() => navigate("/About")}>About us</a></li>
+              <li className="link-s"><a onClick={() => navigate("/Contact")}>Contact us</a></li>
             </ul>
           </div>
           <div className="col">

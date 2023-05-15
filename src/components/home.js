@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles/home.css";
 import {
-  FaBars,
   FaEnvelope,
   FaFacebook,
   FaInstagram,
@@ -10,18 +9,14 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
-import { ImCross } from "react-icons/im";
 import DrinksImg from "../assets/Glass-wine.jpg";
 import Logo from "../assets/styles-services-logo.png";
 import Drink from "../assets/Drink.jpg";
-import Companylogo from "../assets/Our-partners/CompanyLogo.png";
-import tima from "../assets/Our-partners/tima_logistics.jpg";
 import palm from "../assets/Our-partners/palm_continental_hotel.jpg";
 import blades from "../assets/Our-partners/the_blades_hotel.jpg";
 import birchwood from "../assets/Our-partners/birchwood_logo.png";
 import brytech from "../assets/Our-partners/brytech_holdings.jpg";
-import genesis from "../assets/Our-partners/genesis_hotel.jpg";
-import logosvg from "../assets/ssg_logo.png"
+
 
 export const Home = () => {
   const navigate = useNavigate();

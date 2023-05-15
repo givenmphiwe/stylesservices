@@ -135,10 +135,9 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    cursor: pointer;
+    cursor: default;
 }
 .team-section .container .team-card .card:hover{
-    background-color: #f3f3f3;
     transition: 0.3s;
 }
 .team-section .container .team-card .card .image-section img{
