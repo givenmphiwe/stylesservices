@@ -49,6 +49,7 @@
 .card {
     margin: 20px;
     color: #ff5724;
+    cursor: default;
 }
 
 .card h2{
@@ -62,9 +63,9 @@
     text-align: center;
 }
 
-.card i,
-.card:hover p{
+.card i p{
     color: #fff;
+    cursor: default;
 }
 .card:hover h2{
     font-weight: 500;

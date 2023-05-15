@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useRoutes,
+  useRoutes,Switch
 } from "react-router-dom";
 import {Home} from './components/home'
 import { Contact } from "./components/contact";
@@ -12,6 +12,7 @@ import {Services} from "./components/Service"
 import { Course } from "./components/course";
 import {Training} from "./components/Training"
 import ScrollToTop from "./ScrollToTop";
+
 
 const App = () => {
   let routes = useRoutes([

@@ -4,10 +4,11 @@ import Logo from "../assets/styles-services-logo.png";
 import "./styles/Training.css";
 import DrinksImg from "../assets/Glass-wine.jpg";
 import {
-    FaBars,
+    FaEnvelope,
     FaFacebook,
     FaInstagram,
     FaLinkedin,
+    FaPhone,
     FaTwitter,
   } from "react-icons/fa";
   import { FaMarkdown} from "react-icons/fa"
@@ -91,16 +92,17 @@ export const Training = () => {
             <footer className="footer-1">
           <div className="row">
             <div className="col">
-              <img src=""/>
-              <p>Subcribe Easy with ssg the world hospilitay</p>
-            </div>
+            <img src={Logo} />
+              <p>Styles Services Group</p>
+            <p>Hospitality solutions</p>
+          </div>
 
           <div className="col">
             <h3>Office</h3>
-            <p>BLVD Road</p>
-            <p>Rivinia AHS</p>
-            <p className="email-id">EMAil.com</p>
-            <h4>+27-714675197</h4>
+            <p>325 Rivonia Boulevard,</p>
+            <p>Edenburg, Sandton</p>
+            <p className="email-id"><FaEnvelope/>  Info@StylesServices.com</p>
+            <h4><FaPhone/> +27 84 602 3144</h4>
           </div>
           <div className="col">
             <h3>Links</h3>

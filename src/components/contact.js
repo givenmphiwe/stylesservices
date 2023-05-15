@@ -10,7 +10,7 @@ export const Contact = () => {
                 <div className="content">
                     <h2>Contact us</h2>
                     <p>
-                        Lorem ipsum dolor
+                        
                     </p>
                 </div>
                 <div className="container">
@@ -19,7 +19,7 @@ export const Contact = () => {
                             <div className="icon"><FaMapMarker /></div>
                                 <div className="text">
                                     <h3>Address</h3>
-                                    <p>Bld rivonia</p>
+                                    <p>325 Rivonia Boulevard,Edenburg, Sandton</p>
                                 </div>
                         </div>
 
@@ -27,7 +27,7 @@ export const Contact = () => {
                             <div className="icon"><FaPhone/></div>
                                 <div className="text">
                                     <h3>Phone</h3>
-                                    <p>0714675197</p>
+                                    <p>+27 84 602 3144</p>
                                 </div>
                         </div>
 
