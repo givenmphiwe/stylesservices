@@ -28,9 +28,9 @@ export const Training = () => {
             className={Mobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setMobile(false)}
           >
-            <li onClick={() => navigate("Course")}>Courses</li>
-            <li onClick={() => navigate("About")}>About</li>
-            <li onClick={() => navigate("Service")}>services</li>
+            <li onClick={() => navigate("/Course")}>Courses</li>
+            <li onClick={() => navigate("/About")}>About</li>
+            <li onClick={() => navigate("/Service")}>services</li>
           </ul>
 
           <button
@@ -46,8 +46,8 @@ export const Training = () => {
         <img className="Drink-img" src={DrinksImg} alt="" />
         <p className="Styles-text">SSG</p>
         <p className="hospitality-text">Hospitality Training</p>
-        <p className="ContactUs-btn" onClick={() => navigate("/")}>
-          Home
+        <p className="ContactUs-btn" onClick={() => navigate("/Contact")}>
+          Contact us
         </p>
       </div>
 
@@ -55,36 +55,36 @@ export const Training = () => {
       <body className="wrapper">
             <h1>Staff Training</h1>
 
-            <p>Lore ipsum dolor skdmewd ewfk kefm ewfoefmoe few foekwfm</p>
+            <p>Be one the best in the respective fields with our well trained mentors and stuf, You are one of the best when trained by Styles Service Group </p>
 
             <div className="content-box">
                 <div className="card">
                     <FaMarkdown/>
-                    <h2>Marketing Services</h2>
+                    <h2>Barman</h2>
                     <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
                 </div>
 
                 <div className="card">
                     <FaMarkdown/>
-                    <h2>Marketing Services</h2>
+                    <h2>Waiters/waitress</h2>
                     <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
                 </div>
 
                 <div className="card">
                     <FaMarkdown/>
-                    <h2>Marketing Services</h2>
+                    <h2>Health</h2>
                     <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
                 </div>
 
                 <div className="card">
                     <FaMarkdown/>
-                    <h2>Marketing Services</h2>
+                    <h2>Hygeine</h2>
                     <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
                 </div>
 
                 <div className="card">
                     <FaMarkdown/>
-                    <h2>Marketing Services</h2>
+                    <h2>HouseKeeping</h2>
                     <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
                 </div>
             </div>

@@ -42,7 +42,7 @@ export const Services = () => {
         </div>
       </nav>
 
-      <div className="container-2">
+      <div className="container-22">
         {/* <img className="Drink-img" src={DrinksImg} alt="" />*/}
         <p className="Styles-text">SSG</p>
         <p className="hospitality-text">Hospitality Training</p>

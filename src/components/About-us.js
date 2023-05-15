@@ -61,7 +61,7 @@ export const About = () => {
               <div className="content-1">
                 <h3>Lichelle Mpofu</h3>
                 <h2>Founder</h2>
-                <p>Lorem dedneui ewfkjfen ewfjkef fewjknfejnef</p>
+                <p>The strength in our team and our ability to deal with adversities is what makes us a great company</p>
               </div>
             </div>
 
@@ -72,7 +72,7 @@ export const About = () => {
               <div className="content-1">
                 <h3>Collen Dutch Maje</h3>
                 <h2>Managing Director</h2>
-                <p>Lorem dedneui ewfkjfen ewfjkef fewjknfejnef</p>
+                <p>We aim to be No.1 comapnyt in client satisfaction by striving for the best Always</p>
               </div>
 
             </div>
@@ -84,7 +84,7 @@ export const About = () => {
               <div className="content-1">
                 <h3>Andrew Mkhulumeli Ngwenya</h3>
                 <h2>Managing Director</h2>
-                <p>Lorem dedneui ewfkjfen ewfjkef fewjknfejnef</p>
+                <p>We will accelerate our business activities to safeguard Our clients and staff</p>
               </div>
 
             </div>
