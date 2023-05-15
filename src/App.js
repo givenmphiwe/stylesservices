@@ -10,6 +10,8 @@ import { Contact } from "./components/contact";
 import {About} from "./components/About-us"
 import {Services} from "./components/Service"
 import { Course } from "./components/course";
+import {Training} from "./components/Training"
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   let routes = useRoutes([
@@ -18,7 +20,9 @@ const App = () => {
     { path: "Contact", element: <Contact />},
     { path: "About", element: <About />},
     { path: "Service", element: <Services />},
-    { path: "Course", element: <Course />}
+    { path: "Course", element: <Course />},
+    { path: "Training", element: <Training />}
+
 
 
 
@@ -28,15 +32,18 @@ const App = () => {
 };
 
 
+
 const AppWrapper = () => {
   return (
     <Router>
+      <ScrollToTop />
       <App />
     </Router>
   );
 };
 
 export default AppWrapper;
+
 
 
 

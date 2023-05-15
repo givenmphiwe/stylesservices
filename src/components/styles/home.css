@@ -485,6 +485,7 @@ footer{
 .ul li a{
   text-decoration: none;
   color: #fff;
+  
 }
 .social-icons .fab{
   width: 50px;
@@ -507,7 +508,9 @@ hr{
 .copyright {
   text-align: center;
 }
-
+.link-s{
+  cursor: pointer;
+}
 @media (max-width: 700px){
   footer{
     bottom: unset;

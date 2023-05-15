@@ -67,11 +67,11 @@ export const Course = () => {
           <div className="col">
             <h3>Links</h3>
             <ul>
-              <li><a>Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>About us</a></li>
-              <li><a>Training</a></li>
-              <li><a>Contact us</a></li>
+              <li className="link-s"><a onClick={() => navigate("/")}>Home</a></li>
+              <li className="link-s"><a onClick={() => navigate("Service")}>Services</a></li>
+              <li className="link-s"><a onClick={() => navigate("About")}>About us</a></li>
+              <li className="link-s"><a onClick={() => navigate("Training")}>Training</a></li>
+              <li className="link-s"><a onClick={() => navigate("Contact")}>Contact us</a></li>
             </ul>
           </div>
           <div className="col">
