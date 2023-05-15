@@ -9,12 +9,12 @@ import {
     FaTwitter,
   } from "react-icons/fa";
 
-
-export const Services = () => {
+  
+export const Course = () => {
     const navigate = useNavigate()
     return (
         <body className="wrapper">
-            <h1>Our service</h1>
+            <h1>Our courses</h1>
 
             <p>Lore ipsum dolor skdmewd ewfk kefm ewfoefmoe few foekwfm</p>
 

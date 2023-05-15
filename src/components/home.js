@@ -19,7 +19,7 @@ export const Home = () => {
   const [Mobile, setMobile] = useState(false);
 
   return (
-      <body>
+      <>
         <nav className="navbar">
           <div className="container">
             <img
@@ -33,9 +33,9 @@ export const Home = () => {
               onClick={() => setMobile(false)}
             >
               <li>Training</li>
-              <li>Courses</li>
+              <li onClick={() => navigate("Course")}>Courses</li>
               <li onClick={() => navigate("About")}>About-us</li>
-              <li>services</li>
+              <li onClick={() => navigate("Service")}>services</li>
             </ul>
 
             <button
@@ -57,16 +57,27 @@ export const Home = () => {
         </div>
 
         <div className="container-1">
-          <div className="wrapper">
-            <img className="img-txt" src={Drink} alt="" />
-            <div className="text-box">
+          {/* <div className="wrapper">
+          <img className="img-txt" src={Drink} alt="" />
+          <div className="text-box">
               <h2>Align Image & Text Aside</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit
                 waedso jkerne edfleke ceoew cjewfm ewo
               </p>
             </div>
-          </div>
+          </div> */}
+          <div className="wrapper">
+          <img className="img-txt" src={Drink} alt="" />
+          <div className="text-box">
+              <h2>Align Image & Text Aside</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit
+                waedso jkerne edfleke ceoew cjewfm ewo
+              </p>
+            </div>
+            </div>
+          
         </div>
 
         <h1 className="best-txt">
@@ -169,9 +180,9 @@ export const Home = () => {
           </div>
           </div>
           <hr/>
-          <p className="copyright">Styles Services Group c 2023 - All Rights Reserved</p>
+          <p className="copyright">Styles Services Group &copy; 2023 - All Rights Reserved</p>
         </footer>
-      </body>
+      </>
 
       
     

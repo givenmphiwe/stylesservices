@@ -61,9 +61,7 @@
     color: #6c757d;
     text-align: center;
 }
-.card:hover{
 
-}
 .card i,
 .card:hover p{
     color: #fff;
@@ -101,3 +99,5 @@
         margin: 10px auto;
     }
 }
+
+

@@ -9,6 +9,7 @@ import {Home} from './components/home'
 import { Contact } from "./components/contact";
 import {About} from "./components/About-us"
 import {Services} from "./components/Service"
+import { Course } from "./components/course";
 
 const App = () => {
   let routes = useRoutes([
@@ -16,7 +17,9 @@ const App = () => {
     { path: "/", element: <Home /> },
     { path: "Contact", element: <Contact />},
     { path: "About", element: <About />},
-    { path: "Service", element: <Services />}
+    { path: "Service", element: <Services />},
+    { path: "Course", element: <Course />}
+
 
 
     

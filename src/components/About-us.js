@@ -1,6 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import "./styles/About.css";
 import Styles from "../assets/styles-services-logo.png";
+import {
+  FaBars,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
+
 
 export const About = () => {
   const navigate = useNavigate();
@@ -62,6 +70,46 @@ export const About = () => {
           </div>
         </div>
       </div>
+
+      <footer className="footer-1">
+          <div className="row">
+            <div className="col">
+              <img src=""/>
+              <p>Subcribe Easy with ssg the world hospilitay</p>
+            </div>
+
+          <div className="col">
+            <h3>Office</h3>
+            <p>BLVD Road</p>
+            <p>Rivinia AHS</p>
+            <p className="email-id">EMAil.com</p>
+            <h4>+27-714675197</h4>
+          </div>
+          <div className="col">
+            <h3>Links</h3>
+            <ul>
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>About us</a></li>
+              <li><a>Training</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div className="col">
+            <h3>Social media</h3>
+            <div className="social-icons">
+              
+                <a className="fab"><FaFacebook/></a>
+                <a className="fab"><FaLinkedin/></a>
+                <a className="fab"><FaInstagram/></a>
+                <a className="fab"><FaTwitter/></a>
+              
+            </div>
+          </div>
+          </div>
+          <hr/>
+          <p className="copyright">Styles Services Group &copy; 2023 - All Rights Reserved</p>
+        </footer>
     </body>
   );
 };
