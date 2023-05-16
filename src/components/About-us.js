@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./styles/About.css";
 import Styles from "../assets/styles-services-logo.png";
+import ssg from "../assets/ssg_logo.png";
 import {
   FaEnvelope,
   FaFacebook,
@@ -9,10 +10,12 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
+import { useState } from "react";
 
 
 export const About = () => {
   const navigate = useNavigate();
+  
   return (
     <body>
       <div className="heading">
@@ -23,7 +26,7 @@ export const About = () => {
         </p>
       </div>
       <section className="about-us">
-        <img src={Styles} />
+        <img src={ssg} />
         <div className="content">
           <h2>Styles Services Group</h2>
           <p>
@@ -120,10 +123,27 @@ export const About = () => {
             <h3>Social media</h3>
             <div className="social-icons">
               
-                <a className="fab"><FaFacebook/></a>
-                <a className="fab"><FaLinkedin/></a>
-                <a className="fab"><FaInstagram/></a>
-                <a className="fab"><FaTwitter/></a>
+            <a
+                  href="https://www.facebook.com/stylesservicesgroup"
+                  className="fab"
+                >
+                  <FaFacebook />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/stylesservicesgroup/"
+                  className="fab"
+                >
+                  <FaLinkedin />
+                </a>
+                <a
+                  href="https://instagram.com/stylesservicesgroup/"
+                  className="fab"
+                >
+                  <FaInstagram />
+                </a>
+                <a href="https://twitter.com/styles_services" className="fab">
+                  <FaTwitter />
+                </a>
               
             </div>
           </div>

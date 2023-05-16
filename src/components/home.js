@@ -106,7 +106,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Course")}  className="card">
             <img src={Drink} alt="drink.jpg" />
             <h2>Courses</h2>
             <p>
@@ -115,7 +115,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Service")} className="card">
             <img src={Drink} alt="drink.jpg" />
             <h2>Our services</h2>
             <p>
@@ -124,7 +124,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Training")} className="card">
             <img src={Drink} alt="drink.jpg" />
             <h2>Training</h2>
             <p>
@@ -221,16 +221,16 @@ export const Home = () => {
           <div className="col">
             <h3>Social media</h3>
             <div className="social-icons">
-              <a className="fab">
+              <a href="https://www.facebook.com/stylesservicesgroup" className="fab">
                 <FaFacebook />
               </a>
-              <a className="fab">
+              <a href="https://www.linkedin.com/company/stylesservicesgroup/" className="fab">
                 <FaLinkedin />
               </a>
-              <a className="fab">
+              <a href="https://instagram.com/stylesservicesgroup/" className="fab">
                 <FaInstagram />
               </a>
-              <a className="fab">
+              <a href="https://twitter.com/styles_services" className="fab">
                 <FaTwitter />
               </a>
             </div>

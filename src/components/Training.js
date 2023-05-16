@@ -4,14 +4,14 @@ import Logo from "../assets/styles-services-logo.png";
 import "./styles/Training.css";
 import DrinksImg from "../assets/Glass-wine.jpg";
 import {
-    FaEnvelope,
-    FaFacebook,
-    FaInstagram,
-    FaLinkedin,
-    FaPhone,
-    FaTwitter,
-  } from "react-icons/fa";
-  import { FaMarkdown} from "react-icons/fa"
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaPhone,
+  FaTwitter,
+} from "react-icons/fa";
+import { FaMarkdown } from "react-icons/fa";
 
 export const Training = () => {
   const navigate = useNavigate();
@@ -51,84 +51,134 @@ export const Training = () => {
         </p>
       </div>
 
-      
       <body className="wrapper">
-            <h1>Staff Training</h1>
+        <h1>Staff Training</h1>
 
-            <p>Be one the best in the respective fields with our well trained mentors and stuf, You are one of the best when trained by Styles Service Group </p>
+        <p>
+          Be one the best in the respective fields with our well trained mentors
+          and stuf, You are one of the best when trained by Styles Service Group{" "}
+        </p>
 
-            <div className="content-box">
-                <div className="card">
-                    <FaMarkdown/>
-                    <h2>Barman</h2>
-                    <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
-                </div>
+        <div className="content-box">
+          <div className="card">
+            <FaMarkdown />
+            <h2>Barman</h2>
+            <p>
+              Mix and serve alcoholic beverages based on customer requests.All
+              these skills will be provided to you by Ssg facilitators
+            </p>
+          </div>
 
-                <div className="card">
-                    <FaMarkdown/>
-                    <h2>Waiters/waitress</h2>
-                    <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
-                </div>
+          <div className="card">
+            <FaMarkdown />
+            <h2>Waiters/waitress</h2>
+            <p>
+              The duties and responsibilities of a Waiter/Waitress include
+              welcoming and seating guests, taking guest orders, communicating
+              them effectively to the kitchen and in addition, memorizing the
+              menu and offering recommendations to upsell appetizers, desserts,
+              or drinks
+            </p>
+          </div>
 
-                <div className="card">
-                    <FaMarkdown/>
-                    <h2>Health</h2>
-                    <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
-                </div>
+          <div className="card">
+            <FaMarkdown />
+            <h2>Health</h2>
+            <p>
+              Each of our nurses undergo a rigorous vetting process before being
+              assigned to a workplace environment
+            </p>
+          </div>
 
-                <div className="card">
-                    <FaMarkdown/>
-                    <h2>Hygeine</h2>
-                    <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
-                </div>
+          <div className="card">
+            <FaMarkdown />
+            <h2>Hygeine</h2>
+            <p>
+              Our qualifications range from Foundation courses at the start of
+              your career. We are there along you until you are placed in workplace
+            </p>
+          </div>
 
-                <div className="card">
-                    <FaMarkdown/>
-                    <h2>HouseKeeping</h2>
-                    <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
-                </div>
-            </div>
+          <div className="card">
+            <FaMarkdown />
+            <h2>HouseKeeping</h2>
+            <p>
+              Tasks like vacuuming, sweeping, emptying trash cans, dusting
+              shelves, cleaning windows, and mopping floors.SSG has great
+              Mentors to teach and kickstart your career
+            </p>
+          </div>
+        </div>
 
-            <footer className="footer-1">
+        <footer className="footer-1">
           <div className="row">
             <div className="col">
-            <img src={Logo} />
+              <img src={Logo} />
               <p>Styles Services Group</p>
-            <p>Hospitality solutions</p>
-          </div>
+              <p>Hospitality solutions</p>
+            </div>
 
-          <div className="col">
-            <h3>Office</h3>
-            <p>325 Rivonia Boulevard,</p>
-            <p>Edenburg, Sandton</p>
-            <p className="email-id"><FaEnvelope/>  Info@StylesServices.com</p>
-            <h4><FaPhone/> +27 84 602 3144</h4>
-          </div>
-          <div className="col">
-            <h3>Links</h3>
-            <ul>
-              <li className="link-s"><a onClick={() => navigate("/")}>Home</a></li>
-              <li className="link-s"><a onClick={() => navigate("/Service")}>Services</a></li>
-              <li className="link-s"><a onClick={() => navigate("/About")}>About us</a></li>
-              <li className="link-s"><a onClick={() => navigate("/Contact")}>Contact us</a></li>
-            </ul>
-          </div>
-          <div className="col">
-            <h3>Social media</h3>
-            <div className="social-icons">
-              
-                <a className="fab"><FaFacebook/></a>
-                <a className="fab"><FaLinkedin/></a>
-                <a className="fab"><FaInstagram/></a>
-                <a className="fab"><FaTwitter/></a>
-              
+            <div className="col">
+              <h3>Office</h3>
+              <p>325 Rivonia Boulevard,</p>
+              <p>Edenburg, Sandton</p>
+              <p className="email-id">
+                <FaEnvelope /> Info@StylesServices.com
+              </p>
+              <h4>
+                <FaPhone /> +27 84 602 3144
+              </h4>
+            </div>
+            <div className="col">
+              <h3>Links</h3>
+              <ul>
+                <li className="link-s">
+                  <a onClick={() => navigate("/")}>Home</a>
+                </li>
+                <li className="link-s">
+                  <a onClick={() => navigate("/Service")}>Services</a>
+                </li>
+                <li className="link-s">
+                  <a onClick={() => navigate("/About")}>About us</a>
+                </li>
+                <li className="link-s">
+                  <a onClick={() => navigate("/Contact")}>Contact us</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col">
+              <h3>Social media</h3>
+              <div className="social-icons">
+                <a
+                  href="https://www.facebook.com/stylesservicesgroup"
+                  className="fab"
+                >
+                  <FaFacebook />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/stylesservicesgroup/"
+                  className="fab"
+                >
+                  <FaLinkedin />
+                </a>
+                <a
+                  href="https://instagram.com/stylesservicesgroup/"
+                  className="fab"
+                >
+                  <FaInstagram />
+                </a>
+                <a href="https://twitter.com/styles_services" className="fab">
+                  <FaTwitter />
+                </a>
+              </div>
             </div>
           </div>
-          </div>
-          <hr/>
-          <p className="copyright">Styles Services Group &copy; 2023 - All Rights Reserved</p>
+          <hr />
+          <p className="copyright">
+            Styles Services Group &copy; 2023 - All Rights Reserved
+          </p>
         </footer>
-        </body>
+      </body>
     </>
   );
 };

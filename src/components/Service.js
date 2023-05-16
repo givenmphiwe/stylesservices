@@ -6,13 +6,13 @@ import "./styles/Training.css";
 import DrinksImg from "../assets/Glass-wine.jpg";
 import "./styles/service.css";
 import {
-    FaEnvelope,
-    FaFacebook,
-    FaInstagram,
-    FaLinkedin,
-    FaPhone,
-    FaTwitter,
-  } from "react-icons/fa";
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaPhone,
+  FaTwitter,
+} from "react-icons/fa";
 
 export const Services = () => {
   const navigate = useNavigate();
@@ -22,7 +22,7 @@ export const Services = () => {
     <>
       <nav className="navbar">
         <div className="container">
-        <img className="Logo-img" src={Logo} alt="styles-service-logo.png" />
+          <img className="Logo-img" src={Logo} alt="styles-service-logo.png" />
 
           <ul
             className={Mobile ? "nav-links-mobile" : "nav-links"}
@@ -46,8 +46,8 @@ export const Services = () => {
         {/* <img className="Drink-img" src={DrinksImg} alt="" />*/}
         <p className="Styles-text">SSG</p>
         <p className="hospitality-text">Hospitality Training</p>
-        <p className="ContactUs-btn" onClick={() => navigate("/")}>
-          Home
+        <p className="ContactUs-btn" onClick={() => navigate("/Contact")}>
+          Contact us
         </p>
       </div>
       <body className="wrapper">
@@ -62,38 +62,59 @@ export const Services = () => {
           <div className="card">
             <FaMarkdown />
             <h2>HOSPITALITY</h2>
-            <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
+            <p>
+              If you are looking for on-site training for your waiters and
+              waitresses? Then you are at the right place.
+            </p>
           </div>
 
           <div className="card">
             <FaMarkdown />
             <h2>HYGEINE</h2>
-            <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
+            <p>
+              We customise our approach to a client's unique needs. We are
+              committed only to supply environmentally friendly, food safe
+              chemicals.{" "}
+            </p>
           </div>
 
           <div className="card">
             <FaMarkdown />
             <h2>HEALTH CARE</h2>
-            <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
+            <p>
+              WE are one of the largest nursing agencies in the country and a
+              preferred supplier of medical staff to the largest hospital and
+              clinic chains
+            </p>
           </div>
 
           <div className="card">
             <FaMarkdown />
-            <h2>RESTUARANT TRAINING</h2>
-            <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
+            <h2>Placement Specialist</h2>
+            <p>
+              Our ability to create, design and implement various programs that
+              directly impact your employees in a fun, down-to-earth environment
+              that drives guest repeatability and employee retention while
+              working alongside the restaurant owner's objectives.f
+            </p>
           </div>
 
           <div className="card">
             <FaMarkdown />
-            <h2>HOTEL TRAINING</h2>
-            <p>Aliquam ut turpisa fekwokfm fvwefweewf</p>
+            <h2>Training for your Staff</h2>
+            <p>
+              We walk the journey with you and work hand-in-hand to identify
+              current training needs and deliver the same. As a hotel, you need
+              to set a budget for staff training and development, not only
+              because there's high staff turnover in the hospitality field
+            </p>
           </div>
         </div>
 
         <footer className="footer-1">
           <div className="row">
             <div className="col">
-            <img src={Logo} />
+              <img src={Logo} />
               <p>Styles Services Group</p>
               <p>Hospitality solutions</p>
             </div>
@@ -129,16 +150,25 @@ export const Services = () => {
             <div className="col">
               <h3>Social media</h3>
               <div className="social-icons">
-                <a className="fab">
+                <a
+                  href="https://www.facebook.com/stylesservicesgroup"
+                  className="fab"
+                >
                   <FaFacebook />
                 </a>
-                <a className="fab">
+                <a
+                  href="https://www.linkedin.com/company/stylesservicesgroup/"
+                  className="fab"
+                >
                   <FaLinkedin />
                 </a>
-                <a className="fab">
+                <a
+                  href="https://instagram.com/stylesservicesgroup/"
+                  className="fab"
+                >
                   <FaInstagram />
                 </a>
-                <a className="fab">
+                <a href="https://twitter.com/styles_services" className="fab">
                   <FaTwitter />
                 </a>
               </div>
