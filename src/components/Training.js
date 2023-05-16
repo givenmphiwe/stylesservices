@@ -22,7 +22,7 @@ export const Training = () => {
     <>
       <nav className="navbar">
         <div className="container">
-          <img className="Logo-img" src={Logo} alt="styles-service-logo.png" />
+          <img  onClick={() => navigate("/")} className="Logo-img" src={Logo} alt="styles-service-logo.png" />
 
           <ul
             className={Mobile ? "nav-links-mobile" : "nav-links"}

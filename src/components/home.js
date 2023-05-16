@@ -147,7 +147,7 @@ export const Home = () => {
             hospilitay businesses that are flexible, cost effective and
             scalable.To provide services to{" "}
             <b>B&B, Restaurants, Lodge, Hotel, Resort.</b>etc
-            <br />
+            
             <br />
             Mission to provide hospitality business owners and managers turn
             their businesses around, whether it be through improved operations
