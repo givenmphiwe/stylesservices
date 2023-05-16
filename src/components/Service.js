@@ -3,7 +3,6 @@ import { FaMarkdown } from "react-icons/fa";
 import React, { useState } from "react";
 import Logo from "../assets/styles-services-logo.png";
 import "./styles/Training.css";
-import ssg from "../assets/service.jpg";
 import "./styles/service.css";
 import {
   FaEnvelope,
