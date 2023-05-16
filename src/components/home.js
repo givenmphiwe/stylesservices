@@ -16,7 +16,10 @@ import palm from "../assets/Our-partners/palm_continental_hotel.jpg";
 import blades from "../assets/Our-partners/the_blades_hotel.jpg";
 import birchwood from "../assets/Our-partners/birchwood_logo.png";
 import brytech from "../assets/Our-partners/brytech_holdings.jpg";
-
+import TrainingImg from "../assets/glass-row_.jpg"
+import CourseImg from "../assets/Training_.jpg"
+import placementimg from "../assets/placement_.jpg"
+ 
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -97,8 +100,8 @@ export const Home = () => {
 
       <div className="container-3">
         <div className="content-section">
-          <div className="card">
-            <img src={Drink} alt="drink.jpg" />
+          <div onClick={() => navigate("/placement")}  className="card">
+            <img src={placementimg } alt="drink.jpg" />
             <h2>Placement Specialist</h2>
             <p>
               SSG started serving the industry in 2014, Now we placed employees
@@ -107,7 +110,7 @@ export const Home = () => {
           </div>
 
           <div onClick={() => navigate("/Course")}  className="card">
-            <img src={Drink} alt="drink.jpg" />
+            <img  src={CourseImg} alt="drink.jpg" />
             <h2>Courses</h2>
             <p>
               Passionately Embracing Hospitality Education And Training Through
@@ -125,7 +128,7 @@ export const Home = () => {
           </div>
 
           <div onClick={() => navigate("/Training")} className="card">
-            <img src={Drink} alt="drink.jpg" />
+            <img src={TrainingImg } alt="drink.jpg" />
             <h2>Training</h2>
             <p>
               We believe in everyone can make change.Are you in need of

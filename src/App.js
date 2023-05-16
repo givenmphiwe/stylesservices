@@ -3,36 +3,30 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useRoutes,Switch
+  useRoutes,
+  Switch,
 } from "react-router-dom";
-import {Home} from './components/home'
+import { Home } from "./components/home";
 import { Contact } from "./components/contact";
-import {About} from "./components/About-us"
-import {Services} from "./components/Service"
+import { About } from "./components/About-us";
+import { Services } from "./components/Service";
 import { Course } from "./components/course";
-import {Training} from "./components/Training"
+import { Training } from "./components/Training";
+import { Placement } from "./components/Placement";
 import ScrollToTop from "./ScrollToTop";
-
 
 const App = () => {
   let routes = useRoutes([
-    
     { path: "/", element: <Home /> },
-    { path: "Contact", element: <Contact />},
-    { path: "About", element: <About />},
-    { path: "Service", element: <Services />},
-    { path: "Course", element: <Course />},
-    { path: "Training", element: <Training />}
-
-
-
-
-    
+    { path: "Contact", element: <Contact /> },
+    { path: "About", element: <About /> },
+    { path: "Service", element: <Services /> },
+    { path: "Course", element: <Course /> },
+    { path: "Training", element: <Training /> },
+    { path: "Placement", element: <Placement /> },
   ]);
   return routes;
 };
-
-
 
 const AppWrapper = () => {
   return (
@@ -44,9 +38,5 @@ const AppWrapper = () => {
 };
 
 export default AppWrapper;
-
-
-
-
 
 // i think the part of complete the part of the complete and do more is great and is noo more greater tha this..
