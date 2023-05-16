@@ -3,7 +3,7 @@ import { FaMarkdown } from "react-icons/fa";
 import React, { useState } from "react";
 import Logo from "../assets/styles-services-logo.png";
 import "./styles/Training.css";
-import DrinksImg from "../assets/Glass-wine.jpg";
+import ssg from "../assets/service.jpg";
 import "./styles/service.css";
 import {
   FaEnvelope,
@@ -20,7 +20,7 @@ export const Services = () => {
 
   return (
     <>
-      <nav className="navbar">
+      {/* <nav className="navbar">
         <div className="container">
           <img className="Logo-img" src={Logo} alt="styles-service-logo.png" />
 
@@ -38,18 +38,18 @@ export const Services = () => {
             onClick={() => setMobile(!Mobile)}
           >
             {/* {Mobile ? <ImCross /> : <FaBars />} */}
-          </button>
+          {/* </button>
         </div>
       </nav>
 
       <div className="container-22">
-        {/* <img className="Drink-img" src={DrinksImg} alt="" />*/}
+        <img className="Drink-img" src={ssg} alt="" />
         <p className="Styles-text">SSG</p>
         <p className="hospitality-text">Hospitality Training</p>
         <p className="ContactUs-btn" onClick={() => navigate("/Contact")}>
           Contact us
         </p>
-      </div>
+      </div> */} 
       <body className="wrapper">
         <h1>Our service</h1>
 
