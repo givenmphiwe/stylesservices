@@ -150,7 +150,9 @@ export const About = () => {
           </div>
           </div>
           <hr/>
-          <p className="copyright">Styles Services Group &copy; 2023 - All Rights Reserved</p>
+          <p className="copyright">
+          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="">Page Financial Service</a>
+        </p>
         </footer>
     </body>
   );

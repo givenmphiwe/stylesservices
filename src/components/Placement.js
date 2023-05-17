@@ -109,7 +109,7 @@ export const Placement = () => {
         </div>
         <hr />
         <p className="copyright">
-          Styles Services Group &copy; 2023 - All Rights Reserved
+          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="">Page Financial Service</a>
         </p>
       </footer>
     </>

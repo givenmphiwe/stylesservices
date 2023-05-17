@@ -205,13 +205,13 @@ export const Home = () => {
             <h4><FaPhone/> +27 84 602 3144</h4>
           </div>
           <div className="col">
-            <h3>Links</h3>
+            <h3>Quick Links</h3>
             <ul>
               <li className="link-s">
-                <a onClick={() => navigate("Service")}>Services</a>
+                <a onClick={() => navigate("Service")}>What we do</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("About")}>About us</a>
+                <a onClick={() => navigate("About")}>Who we are</a>
               </li>
               <li className="link-s">
                 <a onClick={() => navigate("Training")}>Training</a>
@@ -241,7 +241,7 @@ export const Home = () => {
         </div>
         <hr />
         <p className="copyright">
-          Styles Services Group &copy; 2023 - All Rights Reserved
+          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="">Page Financial Service</a>
         </p>
       </footer>
     </>
