@@ -123,7 +123,7 @@ export const Training = () => {
               <p>325 Rivonia Boulevard,</p>
               <p>Edenburg, Sandton</p>
               <p className="email-id">
-                <FaEnvelope /> Info@StylesServices.com
+                <FaEnvelope /> info@stylesservices.com
               </p>
               <h4>
                 <FaPhone /> +27 84 602 3144

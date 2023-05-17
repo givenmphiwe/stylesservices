@@ -33,7 +33,7 @@ export const Placement = () => {
             candidates to give the best service to your customers.
           </p>
           <p>
-            Contact us- <FaEnvelope /> Info@StylesServices.com
+            Contact us- <FaEnvelope /> info@stylesservices.com
           </p>
           <p>
             Call us - <FaPhone /> +27 84 602 3144
@@ -54,7 +54,7 @@ export const Placement = () => {
             <p>325 Rivonia Boulevard,</p>
             <p>Edenburg, Sandton</p>
             <p className="email-id">
-              <FaEnvelope /> Info@StylesServices.com
+              <FaEnvelope /> info@stylesservices.com
             </p>
             <h4>
               <FaPhone /> +27 84 602 3144
@@ -67,16 +67,16 @@ export const Placement = () => {
                 <a onClick={() => navigate("/")}>Home</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("Service")}>Services</a>
+                <a onClick={() => navigate("/Service")}>Services</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("About")}>About us</a>
+                <a onClick={() => navigate("/About")}>About us</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("Training")}>Training</a>
+                <a onClick={() => navigate("/Training")}>Training</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("Contact")}>Contact us</a>
+                <a onClick={() => navigate("/Contact")}>Contact us</a>
               </li>
             </ul>
           </div>

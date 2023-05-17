@@ -300,7 +300,7 @@ button {
   }
 
   .container-4 {
-    min-height: 50vh;
+    min-height: 70vh;
   }
 }
 
@@ -386,7 +386,10 @@ button {
     text-align: center;
     color: #d3d3d3;
   }
-  
+  .bigimage {
+    
+    height: 70vh;
+  }
   /*Logo images not to react*/
   
   
@@ -474,7 +477,7 @@ hr{
 @media (max-width: 700px){
   footer{
     bottom: unset;
-    margin-top: 40%;
+    margin-top: 50%;
   }
   .col{
     flex-basis: 100%;

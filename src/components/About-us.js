@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./styles/About.css";
-import Styles from "../assets/styles-services-logo.png";
+import Logo from "../assets/styles-services-logo.png";
+
 import ssg from "../assets/ssg_logo.png";
 import {
   FaEnvelope,
@@ -10,8 +11,8 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
-import { useState } from "react";
-
+import Lichelle from "../assets/people/lichelle_mpofu.jpg"
+import Andrew from "../assets/people/andrew mkhumeli ngwenya.jpg"
 
 export const About = () => {
   const navigate = useNavigate();
@@ -21,8 +22,8 @@ export const About = () => {
       <div className="heading">
         <h1>About Us</h1>
         <p>
-          Styles services was design in way that it helps solve problems we
-          are having in South africa
+          Styles services was designed in way that it helps solve problems we
+          are facing in our economy in South africa
         </p>
       </div>
       <section className="about-us">
@@ -59,11 +60,11 @@ export const About = () => {
           <div className="team-card">
             <div className="card">
               <div className="image-section">
-                <img src="" />
+                <img src={Lichelle} />
               </div>
               <div className="content-1">
                 <h3>Lichelle Mpofu</h3>
-                <h2>Founder</h2>
+                <h2>Founder and CEO</h2>
                 <p>The strength in our team and our ability to deal with adversities is what makes us a great company</p>
               </div>
             </div>
@@ -74,19 +75,19 @@ export const About = () => {
               </div>
               <div className="content-1">
                 <h3>Collen Dutch Maje</h3>
-                <h2>Managing Director</h2>
-                <p>We aim to be No.1 comapnyt in client satisfaction by striving for the best Always</p>
+                <h2>Operations Manager</h2>
+                <p>We aim to be No.1 comapany in client satisfaction by striving for the best Always</p>
               </div>
 
             </div>
 
             <div className="card">
               <div className="image-section">
-                <img src="" />
+                <img src={Andrew} />
               </div>
               <div className="content-1">
                 <h3>Andrew Mkhulumeli Ngwenya</h3>
-                <h2>Managing Director</h2>
+                <h2>Business Developer</h2>
                 <p>We will accelerate our business activities to safeguard Our clients and staff</p>
               </div>
 
@@ -98,7 +99,7 @@ export const About = () => {
       <footer className="footer-1">
           <div className="row">
             <div className="col">
-              <img src=""/>
+              <img src={Logo}/>
               <p>Styles Services Group</p>
             <p>Hospitality solutions</p>
           </div>
@@ -107,7 +108,7 @@ export const About = () => {
             <h3>Office</h3>
             <p>325 Rivonia Boulevard,</p>
             <p>Edenburg, Sandton</p>
-            <p className="email-id"><FaEnvelope/>  Info@StylesServices.com</p>
+            <p className="email-id"><FaEnvelope/>  info@stylesservices.com</p>
             <h4><FaPhone/> +27 84 602 3144</h4>
           </div>
           <div className="col">

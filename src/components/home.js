@@ -201,7 +201,7 @@ export const Home = () => {
             <h3>Office</h3>
             <p>325 Rivonia Boulevard,</p>
             <p>Edenburg, Sandton</p>
-            <p className="email-id"><FaEnvelope/>  Info@StylesServices.com</p>
+            <p className="email-id"><FaEnvelope/>  info@stylesservices.com</p>
             <h4><FaPhone/> +27 84 602 3144</h4>
           </div>
           <div className="col">
