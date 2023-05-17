@@ -37,7 +37,7 @@ export const Services = () => {
             onClick={() => setMobile(!Mobile)}
           >
             {/* {Mobile ? <ImCross /> : <FaBars />} */}
-          {/* </button>
+      {/* </button>
         </div>
       </nav>
 
@@ -48,13 +48,16 @@ export const Services = () => {
         <p className="ContactUs-btn" onClick={() => navigate("/Contact")}>
           Contact us
         </p>
-      </div> */} 
+      </div> */}
       <body className="wrapper">
         <h1>Our service</h1>
 
         <p>
           Our Number one priority in Styles Services Group is to provide the
-          best service for you{" "}
+          best service for you .We provide hotel,lodges,Restaurants and many
+          more with stuff to assist their stuff in the field and also train
+          young people with great skills with to be qualified in hospitality
+          industry
         </p>
 
         <div className="content-box">
@@ -175,8 +178,9 @@ export const Services = () => {
           </div>
           <hr />
           <p className="copyright">
-          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="">Page Financial Service</a>
-        </p>
+            Styles Services Group &copy; 2023 - All Rights Reserved | Designed
+            by <a href="">Page Financial Service</a>
+          </p>
         </footer>
       </body>
     </>
