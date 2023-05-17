@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { FaMarkdown } from "react-icons/fa";
+import { FaMarkdown, FaWhatsapp } from "react-icons/fa";
 import React, { useState } from "react";
 import Logo from "../assets/styles-services-logo.png";
 import "./styles/Training.css";
@@ -172,6 +172,9 @@ export const Services = () => {
                 </a>
                 <a href="https://twitter.com/styles_services" className="fab">
                   <FaTwitter />
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+27%2084%20602%203144&text=Hi%20STYLES%20SERVICES%20GROUP%20(PTY)%20LTD,%20I%20contacted%20you%20through%20your%20website.%20I%20need" className="fab">
+                  <FaWhatsapp />
                 </a>
               </div>
             </div>
