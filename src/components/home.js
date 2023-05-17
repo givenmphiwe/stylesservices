@@ -20,7 +20,7 @@ import TrainingImg from "../assets/glass-row_.jpg"
 import CourseImg from "../assets/Training_.jpg"
 import placementimg from "../assets/placement_.jpg"
 import { FaMarkdown, FaWhatsapp } from "react-icons/fa";
- 
+import serviceImg from "../assets/service.jpg"
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -120,7 +120,7 @@ export const Home = () => {
           </div>
 
           <div onClick={() => navigate("/Service")} className="card">
-            <img src={Drink} alt="drink.jpg" />
+            <img src={serviceImg} alt="drink.jpg" />
             <h2>Our services</h2>
             <p>
               We provide 5 Star Hotels, Top South African Corporates, Event
