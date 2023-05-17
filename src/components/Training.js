@@ -56,7 +56,7 @@ export const Training = () => {
 
         <p>
           Be one the best in the respective fields with our well trained mentors
-          and stuf, You are one of the best when trained by Styles Service Group{" "}
+          and stuff, You are one of the best when trained by Styles Services Group{" "}
         </p>
 
         <div className="content-box">
