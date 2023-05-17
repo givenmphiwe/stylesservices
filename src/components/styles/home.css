@@ -112,14 +112,14 @@ button {
   justify-content: center;
   align-items: center;
   min-height: 50vh;
-  background-color: #f36d6d;
+  background-color: #0a3c63;
   
   
 }
 .container-1 .wrapper {
   margin: 150px auto;
   width: 70%;
-  background-color: #f36d6d;
+  background-color: #0a3c63;
 }
 .img-txt {
   max-width: 400px;
@@ -432,6 +432,7 @@ footer{
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
+  color: #ff0050;
 }
 
 .email-id {

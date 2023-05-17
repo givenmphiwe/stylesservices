@@ -19,6 +19,7 @@ import brytech from "../assets/Our-partners/brytech_holdings.jpg";
 import TrainingImg from "../assets/glass-row_.jpg"
 import CourseImg from "../assets/Training_.jpg"
 import placementimg from "../assets/placement_.jpg"
+
  
 
 export const Home = () => {
@@ -76,7 +77,7 @@ export const Home = () => {
           <div className="text-box">
             <h2>We have something important to say to you</h2>
             <p>
-              SSG - Styles Services Group Hospitality Solutions Company is the
+              SG - Hospitality Solutions Company is the
               largest supplier of full service solutions to the Hospitality
               industry, In South Africa and we are famous for the quality of our
               staff. Our commitment to providing the best services to stand out
@@ -94,7 +95,7 @@ export const Home = () => {
       </div>
 
       <h1 className="best-txt">
-        SSG Rockstars are the cream of crop and have been specially trained in
+        SG Rockstars are the cream of crop and have been specially trained in
         all aspects of Butler service. Our Clients rave about them.
       </h1>
 
@@ -104,7 +105,7 @@ export const Home = () => {
             <img src={placementimg } alt="drink.jpg" />
             <h2>Placement Specialist</h2>
             <p>
-              SSG started serving the industry in 2014, Now we placed employees
+              SG started serving the industry in 2014, Now we placed employees
               of more than 5K staff in various hotels
             </p>
           </div>
@@ -132,7 +133,7 @@ export const Home = () => {
             <h2>Training</h2>
             <p>
               We believe in everyone can make change.Are you in need of
-              employment? SSG training equips you to be succesful in hospitality
+              employment? SG training equips you to be succesful in hospitality
               industry
             </p>
           </div>

@@ -44,7 +44,7 @@ export const Training = () => {
 
       <div className="container-2">
         <img className="Drink-img" src={DrinksImg} alt="" />
-        <p className="Styles-text">SSG</p>
+        <p className="Styles-text">SG</p>
         <p className="hospitality-text">Hospitality Training</p>
         <p className="ContactUs-btn" onClick={() => navigate("/Contact")}>
           Contact us
@@ -65,7 +65,7 @@ export const Training = () => {
             <h2>Barman</h2>
             <p>
               Mix and serve alcoholic beverages based on customer requests.All
-              these skills will be provided to you by Ssg facilitators
+              these skills will be provided to you by Sg facilitators
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export const Training = () => {
             <h2>HouseKeeping</h2>
             <p>
               Tasks like vacuuming, sweeping, emptying trash cans, dusting
-              shelves, cleaning windows, and mopping floors.SSG has great
+              shelves, cleaning windows, and mopping floors.SG has great
               Mentors to teach and kickstart your career
             </p>
           </div>
