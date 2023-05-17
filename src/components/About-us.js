@@ -115,7 +115,7 @@ export const About = () => {
             <h3>Links</h3>
             <ul>
               <li className="link-s"><a onClick={() => navigate("/")}>Home</a></li>
-              <li className="link-s"><a onClick={() => navigate("/Service")}>Services</a></li>
+              <li className="link-s"><a onClick={() => navigate("/Service")}>What we do</a></li>
               <li className="link-s"><a onClick={() => navigate("/Training")}>Training</a></li>
               <li className="link-s"><a onClick={() => navigate("/Contact")}>Contact us</a></li>
             </ul>

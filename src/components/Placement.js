@@ -67,10 +67,10 @@ export const Placement = () => {
                 <a onClick={() => navigate("/")}>Home</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("/Service")}>Services</a>
+                <a onClick={() => navigate("/Service")}>What we do</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("/About")}>About us</a>
+                <a onClick={() => navigate("/About")}>Who we are?</a>
               </li>
               <li className="link-s">
                 <a onClick={() => navigate("/Training")}>Training</a>

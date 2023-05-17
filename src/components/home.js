@@ -211,7 +211,7 @@ export const Home = () => {
                 <a onClick={() => navigate("Service")}>What we do</a>
               </li>
               <li className="link-s">
-                <a onClick={() => navigate("About")}>Who we are</a>
+                <a onClick={() => navigate("About")}>Who we are?</a>
               </li>
               <li className="link-s">
                 <a onClick={() => navigate("Training")}>Training</a>
