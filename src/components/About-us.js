@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./styles/About.css";
 import Logo from "../assets/styles-services-logo.png";
-import { FaMarkdown, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import ssg from "../assets/ssg_logo.png";
 import {
   FaEnvelope,
@@ -27,7 +27,7 @@ export const About = () => {
         </p>
       </div>
       <section className="about-us">
-        <img src={ssg} />
+        <img src={ssg} alt="ssg.png"/>
         <div className="content">
           <h2>Styles Services Group</h2>
           <p>
@@ -68,7 +68,7 @@ export const About = () => {
           <div className="team-card">
             <div className="card">
               <div className="image-section">
-                <img src={Lichelle} />
+                <img src={Lichelle} alt="lichelle.png" />
               </div>
               <div className="content-1">
                 <h3>Lichelle Mpofu</h3>
@@ -82,7 +82,7 @@ export const About = () => {
 
             <div className="card">
               <div className="image-section">
-                <img src="" />
+                <img src="" alt=""/>
               </div>
               <div className="content-1">
                 <h3>Collen Dutch Maje</h3>
@@ -96,7 +96,7 @@ export const About = () => {
 
             <div className="card">
               <div className="image-section">
-                <img src={Andrew} />
+                <img src={Andrew} alt="andrew.png"/>
               </div>
               <div className="content-1">
                 <h3>Andrew Mkhulumeli Ngwenya</h3>
@@ -114,7 +114,7 @@ export const About = () => {
       <footer className="footer-1">
         <div className="row">
           <div className="col">
-            <img src={Logo} />
+            <img src={Logo} alt="logo.png"/>
             <p>Styles Services Group</p>
             <p>Hospitality solutions</p>
           </div>

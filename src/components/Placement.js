@@ -19,16 +19,15 @@ export const Placement = () => {
       <div className="bigimage">
         <div className="overlay">
           <h1>Placement of staff</h1>
+          <p></p>
           <p>
             To deliver high-quality service and training for the tourism &
             hospilitay businesses that are flexible, cost effective and
-            scalable.To provide services to{" "}
-            <b>B&B, Restaurants, Lodge, Hotel, Resort.</b>etc
-            <br />
+            scalable.<br/>To provide services to
+            <b> B&B, Restaurants, Lodge, Hotel, Resort.</b>etc
             our core purpose is to make people healthier and enhance and protect
             their lives
-            <br />
-          </p>
+            </p>
           <p>
             Speak to us if you are in need of staff. We have well trained
             candidates to give the best service to your customers.
@@ -105,15 +104,19 @@ export const Placement = () => {
               <a href="https://twitter.com/styles_services" className="fab">
                 <FaTwitter />
               </a>
-              <a href="https://api.whatsapp.com/send?phone=+27%2084%20602%203144&text=Hi%20STYLES%20SERVICES%20GROUP%20(PTY)%20LTD,%20I%20contacted%20you%20through%20your%20website.%20I%20need" className="fab">
-                  <FaWhatsapp />
-                </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=+27%2084%20602%203144&text=Hi%20STYLES%20SERVICES%20GROUP%20(PTY)%20LTD,%20I%20contacted%20you%20through%20your%20website.%20I%20need"
+                className="fab"
+              >
+                <FaWhatsapp />
+              </a>
             </div>
           </div>
         </div>
         <hr />
         <p className="copyright">
-          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="">Page Financial Service</a>
+          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by{" "}
+          <a href="">Page Financial Service</a>
         </p>
       </footer>
     </>

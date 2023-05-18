@@ -113,7 +113,7 @@ export const Training = () => {
         <footer className="footer-1">
           <div className="row">
             <div className="col">
-              <img src={Logo} />
+              <img src={Logo} alt="logo.png"/>
               <p>Styles Services Group</p>
               <p>Hospitality solutions</p>
             </div>

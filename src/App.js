@@ -1,10 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
   useRoutes,
-  Switch,
 } from "react-router-dom";
 import { Home } from "./components/home";
 import { Contact } from "./components/contact";

@@ -19,7 +19,7 @@ import brytech from "../assets/Our-partners/brytech_holdings.jpg";
 import TrainingImg from "../assets/glass-row_.jpg"
 import CourseImg from "../assets/Training_.jpg"
 import placementimg from "../assets/placement_.jpg"
-import { FaMarkdown, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import serviceImg from "../assets/service.jpg"
 
 export const Home = () => {
@@ -193,7 +193,7 @@ export const Home = () => {
       <footer className="footer-1">
         <div className="row">
           <div className="col">
-            <img src={Logo} />
+            <img src={Logo} alt=""/>
             <p>Styles Services Group</p>
             <p>Hospitality solutions</p>
           </div>
