@@ -50,13 +50,13 @@ export const Services = () => {
         </p>
       </div> */}
       <body className="wrapper">
-        <h1>Our service</h1>
+        <h1>Our services</h1>
 
         <p>
           Our Number one priority in Styles Services Group is to provide the
-          best service for you .We provide hotel,lodges,Restaurants and many
+          best services for you .We provide hotel,lodges,Restaurants and many
           more with stuff to assist their stuff in the field and also train
-          young people with great skills with to be qualified in hospitality
+          young people with great skills to be qualified in hospitality
           industry
         </p>
 

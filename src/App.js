@@ -11,6 +11,7 @@ import { Course } from "./components/course";
 import { Training } from "./components/Training";
 import { Placement } from "./components/Placement";
 import ScrollToTop from "./ScrollToTop";
+import { Booktraining } from "./components/Book-training";
 
 const App = () => {
   let routes = useRoutes([
@@ -21,6 +22,7 @@ const App = () => {
     { path: "Course", element: <Course /> },
     { path: "Training", element: <Training /> },
     { path: "Placement", element: <Placement /> },
+    { path: "Booktraining", element: <Booktraining/>}
   ]);
   return routes;
 };
