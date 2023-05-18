@@ -24,7 +24,7 @@ export const Course = () => {
       </p>
 
       <div className="content-box">
-        <div className="card">
+        <div onClick={() => navigate("/Booktraining")} className="card">
           <FaMarkdown />
           <h2>Hotel Training</h2>
           <p>
@@ -35,7 +35,7 @@ export const Course = () => {
           </p>
         </div>
 
-        <div className="card">
+        <div onClick={() => navigate("/Booktraining")} className="card">
           <FaMarkdown />
           <h2>Waiter & Waitress Training</h2>
           <p>
@@ -46,7 +46,7 @@ export const Course = () => {
           </p>
         </div>
 
-        <div className="card">
+        <div onClick={() => navigate("/Booktraining")} className="card">
           <FaMarkdown />
           <h2>Barman</h2>
           <p>
@@ -58,7 +58,7 @@ export const Course = () => {
           </p>
         </div>
 
-        <div className="card">
+        <div onClick={() => navigate("/Booktraining")} className="card">
           <FaMarkdown />
           <h2>Butler Training</h2>
           <p>
@@ -69,7 +69,7 @@ export const Course = () => {
           </p>
         </div>
 
-        <div className="card">
+        <div onClick={() => navigate("/Booktraining")} className="card">
           <FaMarkdown />
           <h2>Restaurant Front of House Training</h2>
           <p>

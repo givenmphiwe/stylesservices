@@ -16,6 +16,10 @@ import palm from "../assets/Our-partners/palm_continental_hotel.jpg";
 import blades from "../assets/Our-partners/the_blades_hotel.jpg";
 import birchwood from "../assets/Our-partners/birchwood_logo.png";
 import brytech from "../assets/Our-partners/brytech_holdings.jpg";
+import lesedi from "../assets/Our-partners/lesedi icon.png"
+import hotelsky from "../assets/Our-partners/Hotel_Sky_Logo_Flat_Rose_Gold_Horizontal-400.png"
+import lalqica from "../assets/Our-partners/Lalqica.png"
+import sarangeti from "../assets/Our-partners/sarangeti.png"
 import TrainingImg from "../assets/glass-row_.jpg"
 import CourseImg from "../assets/Training_.jpg"
 import placementimg from "../assets/placement_.jpg"
@@ -184,7 +188,26 @@ export const Home = () => {
                 <img src={birchwood} alt="" />
                 <img className="nothin" src={birchwood} alt="" />
               </li>
+
+              <li>
+                <img src={sarangeti} alt="" />
+                <img className="nothin" src={sarangeti} alt="" />
+              </li>
+
+              <li>
+                <img src={lesedi} alt="" />
+                <img className="nothin" src={lesedi} alt="" />
+              </li>
               
+              <li>
+                <img src={lalqica} alt="" />
+                <img className="nothin" src={lalqica} alt="" />
+              </li>
+
+              <li>
+                <img src={hotelsky} alt="" />
+                <img className="nothin" src={hotelsky} alt="" />
+              </li>
             </ul>
           </div>
         </div>

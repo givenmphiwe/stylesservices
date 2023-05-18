@@ -215,7 +215,7 @@ button {
 /*Logo of company partners*/
 .container-4 {
   width: 100%;
-  height: 10vh;
+  height: 25vh;
   display: grid;
   place-items: center;
   font-family: "Titillium Web", sans-serif;
@@ -289,7 +289,12 @@ button {
   transform: translateY(-100%);
   transition: 0.5s;
 }
-
+@media (max-width:400px) {
+  .container-4 {
+    height: 100%;
+  }
+  
+}
 @media (max-width:768px) {
   .nothin {
     display: none;
