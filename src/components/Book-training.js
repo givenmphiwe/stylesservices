@@ -73,7 +73,7 @@ export const Booktraining = () => {
               </div>
               <div className="text">
                 <h3>Email</h3>
-                <p>Info@StylesServicesGroup.com</p>
+                <p>info@stylesservicesgr.com</p>
               </div>
             </div>
           </div>

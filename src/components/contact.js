@@ -37,7 +37,7 @@ export const Contact = () => {
       <section className="contact">
         <div className="content">
           <h2>Contact us</h2>
-          <p></p>
+          <p>Talk to our friendly consultant</p>
         </div>
         <div className="container">
           <div className="contactInfo">
@@ -67,7 +67,7 @@ export const Contact = () => {
               </div>
               <div className="text">
                 <h3>Email</h3>
-                <p>Info@StylesServicesGroup.com</p>
+                <p>info@stylesservicesgr.com</p>
               </div>
             </div>
           </div>

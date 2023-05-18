@@ -95,7 +95,7 @@ export const Course = () => {
             <p>325 Rivonia Boulevard,</p>
             <p>Edenburg, Sandton</p>
             <p className="email-id">
-              <FaEnvelope /> info@stylesservices.com
+              <FaEnvelope /> info@stylesservicesgr.com
             </p>
             <h4>
               <FaPhone /> +27 84 602 3144

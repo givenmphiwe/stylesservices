@@ -61,7 +61,7 @@ export const Services = () => {
         </p>
 
         <div className="content-box">
-          <div className="card">
+          <div onClick={() => navigate("/Contact")} className="card">
             <FaMarkdown />
             <h2>HOSPITALITY</h2>
             <p>
@@ -70,7 +70,7 @@ export const Services = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Contact")} className="card">
             <FaMarkdown />
             <h2>HYGEINE</h2>
             <p>
@@ -80,7 +80,7 @@ export const Services = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Contact")} className="card">
             <FaMarkdown />
             <h2>HEALTH CARE</h2>
             <p>
@@ -90,7 +90,7 @@ export const Services = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Contact")} className="card">
             <FaMarkdown />
             <h2>Placement Specialist</h2>
             <p>
@@ -101,7 +101,7 @@ export const Services = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div onClick={() => navigate("/Contact")} className="card">
             <FaMarkdown />
             <h2>Training for your Staff</h2>
             <p>
@@ -126,7 +126,7 @@ export const Services = () => {
               <p>325 Rivonia Boulevard,</p>
               <p>Edenburg, Sandton</p>
               <p className="email-id">
-                <FaEnvelope /> info@stylesservices.com
+                <FaEnvelope /> info@stylesservicesgr.com
               </p>
               <h4>
                 <FaPhone /> +27 84 602 3144
