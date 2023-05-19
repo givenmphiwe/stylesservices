@@ -1,35 +1,26 @@
-import React, { useState } from "react";
-
+import React, { useRef } from 'react';
+import emailjs from "@emailjs/browser";
 import "./styles/contact.css";
 import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 
 export const Contact = () => {
+  const form = useRef();
 
-  const [formState, setFormState] = useState({});
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  
-
-  const changeHandler = (event) => {
-    setFormState({ ...formState, [event.target.name]: event.target.value });
-  };
-
-  const submitHandler = (event) => {
-    event.preventDefault();
-    const config = {
-        Host : "smtp.elasticemail.com",
-        Username : "pagefinancialservices67@gmail.com",
-        Password : "82FE1CC103F33CD8AAB6F7584062ED3827B0",
-        To : 'info@stylesservicesgr.com',
-        From : formState.email,
-        Subject : "Styles Services Group website",
-        Body : `${formState.message}`,
-        port : 2525,
-      }
-
-
-    if(window.Email){
-        window.Email.send(config).then( () => alert("Message sent successfully"))
-    }
+    emailjs
+      .sendForm("service_6nbru9p", "template_yeau5pp", form.current, "p33t-bhK3YQKvvR5e")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      e.target.reset()
+    
   }
   return (
     <body>
@@ -72,22 +63,22 @@ export const Contact = () => {
           </div>
 
           <div className="contactForm">
-            <form onSubmit={submitHandler}>
+            <form ref={form} onSubmit={sendEmail}>
               <h2>Send Message</h2>
               <div className="inputBox">
-                <input type="text" name="" onChange={changeHandler} required />
+                <input type="text" name="name" required />
                 <span>Full Name</span>
               </div>
               <div className="inputBox">
-                <input type="email" name="" value={formState.email} onChange={changeHandler} required />
+                <input type="email" name="email" required />
                 <span>Email</span>
               </div>
               <div className="inputBox">
-                <textarea value={formState.message} onChange={changeHandler} required></textarea>
+                <textarea name="message" required></textarea>
                 <span>Type your Message..</span>
               </div>
               <div className="inputBox">
-                <input type="submit" name="" />
+                <input type="submit" value="Send"/>
               </div>
             </form>
           </div>
