@@ -20,7 +20,7 @@ export const Contact = () => {
         Host : "smtp.elasticemail.com",
         Username : "pagefinancialservices67@gmail.com",
         Password : "82FE1CC103F33CD8AAB6F7584062ED3827B0",
-        To : 'pagefinancialservices67@gmail.com',
+        To : 'info@stylesservicesgr.com',
         From : formState.email,
         Subject : "Styles Services Group website",
         Body : `${formState.message}`,
