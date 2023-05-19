@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./styles/Book-training.css";
 import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 
 export const Booktraining = () => {
-  const navigate = useNavigate();
+  
 
   const [formState, setFormState] = useState({});
 

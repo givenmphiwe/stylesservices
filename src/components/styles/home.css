@@ -308,7 +308,12 @@ button {
     min-height: 70vh;
   }
 }
-
+@media (max-width: 400px){
+  .bigimage {
+    
+    height: 100%;
+  }
+}
 
 @media (max-width: 768px) {
   .nav-links {

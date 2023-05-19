@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import "./styles/contact.css";
 import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 
 export const Contact = () => {
-  const navigate = useNavigate();
 
   const [formState, setFormState] = useState({});
 
