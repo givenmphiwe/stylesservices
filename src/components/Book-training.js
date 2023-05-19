@@ -42,7 +42,7 @@ export const Booktraining = () => {
             We don't just train you, we hold your hand till you are placed in
             one of our partners hotel/Restaurant,where you will be employed as
             waiter/waitress, chef, barman etc <br />
-            <b>That's what makes us the in the field</b>{" "}
+            <b>That's what makes us the best in the field</b>{" "}
           </p>
         </div>
         <div className="container">
