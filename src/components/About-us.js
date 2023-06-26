@@ -180,7 +180,7 @@ export const About = () => {
         <hr />
         <p className="copyright">
           Styles Services Group &copy; 2023 - All Rights Reserved | Designed by{" "}
-          <a href="">Page Financial Service</a>
+          <a href="https://pagefinancialservice.com/">Page Financial Service</a>
         </p>
       </footer>
     </body>

@@ -268,7 +268,7 @@ export const Home = () => {
         </div>
         <hr />
         <p className="copyright">
-          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="">Page Financial Service</a>
+          Styles Services Group &copy; 2023 - All Rights Reserved | Designed by <a href="https://pagefinancialservice.com/">Page Financial Service</a>
         </p>
       </footer>
     </>
