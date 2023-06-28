@@ -50,21 +50,25 @@ export const TrainingLandin = () => {
               <br />
               <span>Be Creative!</span>
             </h2>
-            <p className="paragraph">We have training </p>
-            <a onClick={() => navigate("/BarmanTraining")}className="info-btn">
+            <p className="paragraph">
+              We have Developed training assesments that will talk to you, show you your
+              knowledge of the hospilitay industry.
+              {" "}
+            </p>
+            <a onClick={() => navigate("/BarmanTraining")} className="info-btn">
               Barman
             </a>
             <a href="#" className="info-btn">
-              Waiter/Waitress 
+              Waiter/Waitress
             </a>
             <a href="#" className="info-btn">
-              Housekeeping 
+              Housekeeping
             </a>
             <a href="#" className="info-btn">
               Health
             </a>
             <a href="#" className="info-btn">
-              Hygeine 
+              Hygeine
             </a>
           </div>
         </div>
