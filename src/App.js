@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  useRoutes,
-} from "react-router-dom";
+import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 import { Home } from "./components/home";
 import { Contact } from "./components/contact";
 import { About } from "./components/About-us";
@@ -12,6 +9,8 @@ import { Training } from "./components/Training";
 import { Placement } from "./components/Placement";
 import ScrollToTop from "./ScrollToTop";
 import { Booktraining } from "./components/Book-training";
+import { TrainingLandin } from "./components/TrainingLandin";
+import { BarmanTraining } from "./components/BarmanTraining";
 
 const App = () => {
   let routes = useRoutes([
@@ -22,7 +21,9 @@ const App = () => {
     { path: "Course", element: <Course /> },
     { path: "Training", element: <Training /> },
     { path: "Placement", element: <Placement /> },
-    { path: "Booktraining", element: <Booktraining/>}
+    { path: "Booktraining", element: <Booktraining /> },
+    { path: "TrainingLandin", element: <TrainingLandin /> },
+    {path: "BarmanTraining", element: <BarmanTraining/> },
   ]);
   return routes;
 };
