@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import DrinksImg from "../assets/Glass-wine.jpg";
-import Logo from "../assets/styles-services-logo.png";
 import { useNavigate } from "react-router-dom";
 import "./styles/BarmanTraining.css"
 
@@ -65,12 +63,16 @@ export const BarmanTraining = () => {
 
 
   return (
-    <>
+    <div className="barman-body">
       <div className='app'>
 			{showScore ? (
 				<div className='score-section'>
-					You scored {score} out of {questions.length}
+					You scored {score} out of {questions.length} <br/>
+					<br/>
+					 Be accessed and get certificate from our training
+					<button>Start</button>
 				</div>
+				
 			) : (
 				<>
 					<div className='question-section'>
@@ -81,13 +83,13 @@ export const BarmanTraining = () => {
 					</div>
 					<div className='answer-section'>
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
-							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+							<button className="buttonss" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 						))}
 					</div>
 				</>
 			)}
 		</div>
-    </>
+    </div>
   );
 }
 

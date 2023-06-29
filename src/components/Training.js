@@ -60,7 +60,7 @@ export const Training = () => {
         </p>
 
         <div className="content-box">
-          <div onClick={() => navigate("/BarmanTraining")} className="card">
+          <div onClick={() => navigate("/login")} className="card">
             <FaMarkdown />
             <h2>Barman</h2>
             <p>
