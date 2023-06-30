@@ -68,18 +68,21 @@
 
 .content-sect .icons-medi{
     margin: 40px 40px;
-    transition: 0.3s;
+    display: flex;
 
 }
 .content-sect .icons-medi a{
+    position: relative;
     color: #fff;
     font-size: 30px;
     padding: 0px 10px;
     transition: 0.3s;
-    
+    transition-property: transform;
 }
+
 .content-sect .icons-medi a:hover{
     color: blue;
+    transform: scale(1.5);
     
 }
 
