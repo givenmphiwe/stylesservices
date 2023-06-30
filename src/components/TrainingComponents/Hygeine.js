@@ -4,6 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Hygeine from "./assets/hygeine.jpg";
 
 export const HygeineIntro = () => {
+    
   return (
     <div className="sect">
       <div className="containa">

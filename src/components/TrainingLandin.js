@@ -14,7 +14,6 @@ export const TrainingLandin = () => {
   const navigate = useNavigate();
 
   
-
   return (
     <>
       <section className="sectionsss">
