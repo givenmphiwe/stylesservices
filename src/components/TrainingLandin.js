@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import DrinksImg from "../assets/Glass-wine.jpg";
-import Logo from "../assets/styles-services-logo.png";
+
 import { useNavigate } from "react-router-dom";
 import "./styles/TrainingLandin.css";
 import {
@@ -14,7 +13,7 @@ import {
 export const TrainingLandin = () => {
   const navigate = useNavigate();
 
-  const [Mobile, setMobile] = useState(false);
+  
 
   return (
     <>
@@ -58,16 +57,16 @@ export const TrainingLandin = () => {
             <a onClick={() => navigate("/Barmanintro")} className="info-btn">
               Barman
             </a>
-            <a href="#" className="info-btn">
+            <a onClick={() => navigate("/Waiterintro")} className="info-btn">
               Waiter/Waitress
             </a>
-            <a href="#" className="info-btn">
+            <a onClick={() => navigate("/Housekeepingintro")}  className="info-btn">
               Housekeeping
             </a>
-            <a href="#" className="info-btn">
+            <a onClick={() => navigate("/Healthintro")}  className="info-btn">
               Health
             </a>
-            <a href="#" className="info-btn">
+            <a onClick={() => navigate("/Hygeineintro")}  className="info-btn">
               Hygeine
             </a>
           </div>

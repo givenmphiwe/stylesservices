@@ -13,6 +13,10 @@ import { TrainingLandin } from "./components/TrainingLandin";
 import { BarmanTraining } from "./components/BarmanTraining";
 import { Login } from "./components/login"
 import { BarmanIntro } from "./components/TrainingComponents/Barman-intro";
+import { HealthIntro } from "./components/TrainingComponents/Health-intro";
+import { HygeineIntro } from "./components/TrainingComponents/Hygeine";
+import { HousekeepingIntro } from "./components/TrainingComponents/housekeepin-intro";
+import { WaiterIntro } from "./components/TrainingComponents/Waiter-intro";
 
 const App = () => {
   let routes = useRoutes([
@@ -27,7 +31,12 @@ const App = () => {
     { path: "TrainingLandin", element: <TrainingLandin /> },
     { path: "BarmanTraining", element: <BarmanTraining/> },
     { path: "login", element: <Login/> },
-    { path: "Barmanintro", element: <BarmanIntro/> }
+    { path: "Barmanintro", element: <BarmanIntro/> },
+    { path: "Healthintro", element: <HealthIntro/>},
+    { path: "Waiterintro", element: <WaiterIntro/> },
+    { path: "Housekeepingintro", element: <HousekeepingIntro/>},
+    { path: "Hygeineintro", element: <HygeineIntro/> }
+
   ]);
   return routes;
 };
