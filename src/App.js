@@ -12,6 +12,7 @@ import { Booktraining } from "./components/Book-training";
 import { TrainingLandin } from "./components/TrainingLandin";
 import { BarmanTraining } from "./components/BarmanTraining";
 import { Login } from "./components/login"
+import { BarmanIntro } from "./components/TrainingComponents/Barman-intro";
 
 const App = () => {
   let routes = useRoutes([
@@ -26,6 +27,7 @@ const App = () => {
     { path: "TrainingLandin", element: <TrainingLandin /> },
     { path: "BarmanTraining", element: <BarmanTraining/> },
     { path: "login", element: <Login/> },
+    { path: "Barmanintro", element: <BarmanIntro/> }
   ]);
   return routes;
 };

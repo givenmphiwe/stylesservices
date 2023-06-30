@@ -1,7 +1,7 @@
 import React from "react";
 import * as Components from "./LoginComponents";
 import { useNavigate } from "react-router-dom";
-import { FaGoogle } from "react-icons/fa";
+
 
 export const Login = () => {
   const [signIn, toggle] = React.useState(true);
@@ -20,7 +20,6 @@ export const Login = () => {
       </Components.SignUpContainer>
 
       <Components.SignInContainer signinIn={signIn}>
-      <FaGoogle/>
         <Components.Form>
           <Components.Title>Sign in</Components.Title>
           <Components.Input type="email" placeholder="Email" required/>

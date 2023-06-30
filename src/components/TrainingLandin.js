@@ -55,7 +55,7 @@ export const TrainingLandin = () => {
               knowledge of the hospilitay industry.
               {" "}
             </p>
-            <a onClick={() => navigate("/BarmanTraining")} className="info-btn">
+            <a onClick={() => navigate("/Barmanintro")} className="info-btn">
               Barman
             </a>
             <a href="#" className="info-btn">

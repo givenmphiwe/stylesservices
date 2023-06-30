@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sect {
+    width: 100;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.containa{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-sect{
+    float: left;
+    width: 55%;
+}
+.image-sec{
+    float: right;
+    width: 40%;
+}
+.image-sec img{
+    width: 100%;
+    height: auto;
+}
+.content-sect .titl {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-sect .contety h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+}
+
+.content-sect .contety p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-sect .contety .strt-btn{
+    margin-top: 30px;
+}
+.content-sect .contety .strt-btn a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.content-sect .contety .strt-btn a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+}
+
+.content-sect .icons-medi{
+    margin: 40px 40px;
+    transition: 0.3s;
+
+}
+.content-sect .icons-medi a{
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: 0.3s;
+    
+}
+.content-sect .icons-medi a:hover{
+    color: blue;
+    
+}
+
+@media  screen and (max-width: 768px) {
+    .containa{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .content-sect{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .image-sec{
+        float: none;
+        width: 100%;
+        
+    }
+    .image-sec img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-sect .titl {
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-sect .contety .strt-btn{
+        text-align: center;
+
+    }
+
+    .content-sect .contety .strt-btn a{
+        padding: 9px 30px;
+    }
+
+    .content-sect .icons-medi{
+        text-align: center;
+    }
+}
