@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Hygeine from "./assets/hygeine.jpg";
 
 export const HygeineIntro = () => {
-    
+
   return (
     <div className="sect">
       <div className="containa">
@@ -20,7 +20,7 @@ export const HygeineIntro = () => {
               succesful in the field and know more everyday.
             </h3>
 
-            <p>Lorem ipsum</p>
+            <p>Styles Services Group</p>
 
             <div className="strt-btn">
               <a>Start</a>
