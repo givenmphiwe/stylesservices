@@ -13,7 +13,11 @@ export const HygeineIntro = () => {
           </div>
 
           <div className="contety">
-            <h3>Lorem ipsum</h3>
+            <h3>
+              Welcome to Hygeine assesment Training. We developed the training
+              assesment to equip you with skills and knowledge needed to be
+              succesful in the field and know more everyday.
+            </h3>
 
             <p>Lorem ipsum</p>
 

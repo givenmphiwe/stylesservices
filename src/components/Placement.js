@@ -33,7 +33,7 @@ export const Placement = () => {
             candidates to give the best service to your customers.
           </p>
           <p>
-            Contact us- <FaEnvelope /> info@stylesservicesgr.com
+            Email us- <FaEnvelope /> info@stylesservicesgr.com
           </p>
           <p>
             Call us - <FaPhone /> +27 84 602 3144
