@@ -1,13 +1,13 @@
 import React from "react";
-import "./styles/Barmanintro.css";
-import data from "./Data/Waiter.json";
+import data from "../Data/Waiter.json";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import Waiter from "./assets/waiter.jpg";
+import Waiter from "../assets/waiter.jpg";
 import { useNavigate } from "react-router-dom";
 
-export const WaiterIntro = () => {
-  const navigate = useNavigate();
 
+export const WaiterThree = () => {
+const navigate = useNavigate();
+  
   return (
     <div className="sect">
       <div className="containa">
@@ -20,20 +20,19 @@ export const WaiterIntro = () => {
             <div className="image-sec">
               <img src={Waiter} />
             </div>
-            <h3>Presenting the menu</h3>
-
+            <h3>Menu Present service standards</h3>
+            
             <ul>
-              {data.introStrings?.map((item, i) => {
-                return (
-                  <p className="list-items" key={i}>
-                    {item}
-                  </p>
-                );
+              {data.PresentmenuStrings?.map((item, i) => {
+                return <p className="list-items" key={i}>{item}</p>;
               })}
             </ul>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Waiter-one")}>Start</a>
+              <a onClick={() => navigate("/Waiter-two")}>Next</a>
+            </div>
+            <div className="strt-btn">
+              <a onClick={() => navigate("/Waiter-one")}>Previous</a>
             </div>
           </div>
           <div className="icons-medi">

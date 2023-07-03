@@ -17,6 +17,9 @@ import { HealthIntro } from "./components/TrainingComponents/Health-intro";
 import { HygeineIntro } from "./components/TrainingComponents/Hygeine";
 import { HousekeepingIntro } from "./components/TrainingComponents/housekeepin-intro";
 import { WaiterIntro } from "./components/TrainingComponents/Waiter-intro";
+import { WaiterOne } from "./components/TrainingComponents/Waiter/waiter-one";
+import { WaiterTwo } from "./components/TrainingComponents/Waiter/waiter-two";
+import { WaiterThree } from "./components/TrainingComponents/Waiter/waiter-three";
 
 const App = () => {
   let routes = useRoutes([
@@ -35,7 +38,10 @@ const App = () => {
     { path: "Healthintro", element: <HealthIntro/>},
     { path: "Waiterintro", element: <WaiterIntro/> },
     { path: "Housekeepingintro", element: <HousekeepingIntro/>},
-    { path: "Hygeineintro", element: <HygeineIntro/> }
+    { path: "Hygeineintro", element: <HygeineIntro/> },
+    { path: "Waiter-one", element: <WaiterOne/>},
+    { path: "Waiter-two", element: <WaiterTwo/>},
+    { path: "Waiter-three", element: <WaiterThree/>},
 
   ]);
   return routes;

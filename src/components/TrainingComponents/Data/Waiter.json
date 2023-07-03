@@ -1,13 +1,48 @@
 {
-  "arrOfStrings": [
+  "introStrings": [
     "- Guest should be greeted and welcome with recognition and should be helped with their coats and bags.",
     "- All guests are welcomed at the entrance A.S.A.P they entered inside the restuarant.",
     "- Greet the guest immediatly with direct eye contact and a warm smile",
-    "- Ask guest name to acknowledge them (if they have a reservation). Use guest name at leaast twice during conversation. (Effective skill for servers and greeters",
+    "- Ask guest name to acknowledge them (if they have a reservation). Use guest name at leaast twice during conversation. (Effective skill for servers and greeters)",
     "- Offer choice of seating. (Walk in guests)",
     "- Table setting are adjusted to the number of guest.", 
     "- Greet the guest according to time of day.", 
     "- Good Evening Sir, Welcome to our restuarant.",
     "- Do you have a table reservation?"
+  ],
+  "reservationStrings": [
+    "- May I have your name, please? (How do you spell that, please?)",
+    "- This way please, Mr David. (Escort the guest to their table, converse with them as you walk.)",
+    "- Allow me, Mr. David(When pulling back a chair for the guest or When presenting a napkin).",
+    "In restuarants, all gests shoul;d be welcomed at the entrance within 1 minute of arrival; guests are greeted warmly with goof eye-contact.",
+    "Guests are escorted and seated within 1 minute of their arrival, if seats are available; menus and wine lists (where applicable) are presented immediately at all meal periods"
+  ],
+  "noreservationStrings": [
+    "- That's ll right, May I have your name, please?",
+    "- Would you prefer the smokingor non-smoking area, (Mr.David)",
+    "- This way please, (Take the guest to a table, Converse with the guests as you walk",
+    "- Is this table fine?",
+    "- Allow me (when pulling back a chair for the guest or when presenting a napkin)"
+  ],
+  "menuStrings": [
+    "- Here's your menu Sir/Mr.David",
+    "- Today we have a special set menu/ Chef's Special",
+    "- May i recommend the Chef's Special?",
+    "- We also have a delicious buffet/set menu dor you today",
+    "- This is our special (breakfast/afternoon tea) menu.",
+    "- I'll come back in a few minutes to take your order.",
+    "- At lunch, menus are presented immediately upon being seated.",
+    "- Menus cards should be free of dirt, stains and worn edges.",
+    "- At dinner once guest is seated and settled guests are askd if they would like and aperiti before being presened with the wine list and menu.",
+    "- Table settings should adjust to the number of guests at the table"
+  ],
+  "PresentmenuStrings":[
+    "- All Beverage/Food menus should be clean and in good condition",
+    "- Menus should be at least 2/3 languages",
+    "- Menus must be presented to guest opened, Present menu in the guest table and open the first page.",
+    "- Must have nonalcoholic option in case hotel have license to serve Liquor at Restaurant.",
+    "- Always point any recommendation or house favorites or daily specials, inform not available items (item 86).",
+    "- Inform the guest that you will take their order when ready.",
+    "- Maintain eye contact and approach at the  appropriate time."
   ]
 }
