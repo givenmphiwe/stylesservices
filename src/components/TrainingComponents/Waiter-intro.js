@@ -1,22 +1,41 @@
 import React from "react";
 import "./styles/Barmanintro.css";
+import data from "./Data/Waiter.json";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Waiter from "./assets/waiter.jpg";
 
 export const WaiterIntro = () => {
+  const sampleJSON = {
+    "arrOfNumbers": [1, 2, 3, 4],
+    "arrOfStrings": ["a", "b", "c", "d"],
+    "arrOfObjects": [{ "a": 1, "b": 1 }, { "a": 2, "b": 2 }, { "a": 3, "b": 3 }]
+  }
   return (
     <div className="sect">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Waiter Training</h1>
+            <h1>Waiter Introduction</h1>
           </div>
 
           <div className="contety">
-            <h3>Lorem ipsum</h3>
+            <div className="image-sec">
+              <img src={Waiter} />
+            </div>
+            <h3>Fine Dining sequence of service</h3>
+            {/* {data.map((data, i) => (
+              <div key={i}>
+                <h3>{data.heading}</h3>
 
-            <p>Lorem ipsum</p>
-
+                <p>{data.description}</p>
+              </div>
+            ))} */}
+            <ul>
+              {data.arrOfStrings?.map((item, i) => {
+                return <p className="list-items" key={i}>{item}</p>;
+              })}
+            </ul>
+            
             <div className="strt-btn">
               <a>Start</a>
             </div>
@@ -32,9 +51,6 @@ export const WaiterIntro = () => {
               <FaInstagram />
             </a>
           </div>
-        </div>
-        <div className="image-sec">
-          <img src={Waiter} />
         </div>
       </div>
     </div>

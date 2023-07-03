@@ -22,7 +22,9 @@
 .content-sect{
     float: left;
     width: 55%;
+    
 }
+
 .image-sec{
     float: right;
     width: 40%;
@@ -48,6 +50,13 @@
     font-size: 18px;
     line-height: 1.5;
 }
+.content-sect .contety ul{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .content-sect .contety .strt-btn{
     margin-top: 30px;
 }

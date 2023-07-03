@@ -1,9 +1,14 @@
 import React from "react";
 import "./styles/Barmanintro.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+
 import Health from "./assets/health.jpg";
 
 export const HealthIntro = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div className="sect">
       <div className="containa">
@@ -18,7 +23,7 @@ export const HealthIntro = () => {
             <p>Lorem ipsum</p>
 
             <div className="strt-btn">
-              <a>Start</a>
+              <a onClick={() => navigate("/BarmanTraining")}>Start</a>
             </div>
           </div>
           <div className="icons-medi">

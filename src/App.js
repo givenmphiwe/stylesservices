@@ -10,7 +10,7 @@ import { Placement } from "./components/Placement";
 import ScrollToTop from "./ScrollToTop";
 import { Booktraining } from "./components/Book-training";
 import { TrainingLandin } from "./components/TrainingLandin";
-import { BarmanTraining } from "./components/BarmanTraining";
+import { BarmanTraining } from "./components/TrainingComponents/BarmanTraining";
 import { Login } from "./components/login"
 import { BarmanIntro } from "./components/TrainingComponents/Barman-intro";
 import { HealthIntro } from "./components/TrainingComponents/Health-intro";
