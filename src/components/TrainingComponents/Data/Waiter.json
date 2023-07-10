@@ -5,8 +5,8 @@
     "- Greet the guest immediatly with direct eye contact and a warm smile",
     "- Ask guest name to acknowledge them (if they have a reservation). Use guest name at leaast twice during conversation. (Effective skill for servers and greeters)",
     "- Offer choice of seating. (Walk in guests)",
-    "- Table setting are adjusted to the number of guest.", 
-    "- Greet the guest according to time of day.", 
+    "- Table setting are adjusted to the number of guest.",
+    "- Greet the guest according to time of day.",
     "- Good Evening Sir, Welcome to our restuarant.",
     "- Do you have a table reservation?"
   ],
@@ -36,7 +36,7 @@
     "- At dinner once guest is seated and settled guests are askd if they would like and aperiti before being presened with the wine list and menu.",
     "- Table settings should adjust to the number of guests at the table"
   ],
-  "PresentmenuStrings":[
+  "PresentmenuStrings": [
     "- All Beverage/Food menus should be clean and in good condition",
     "- Menus should be at least 2/3 languages",
     "- Menus must be presented to guest opened, Present menu in the guest table and open the first page.",
@@ -44,6 +44,175 @@
     "- Always point any recommendation or house favorites or daily specials, inform not available items (item 86).",
     "- Inform the guest that you will take their order when ready.",
     "- Maintain eye contact and approach at the  appropriate time.",
-    ""
+    "- Suggestive selling and upselling skills are music.",
+    "- Try to read the guests nd seggest appropriately.",
+    "- Try to answer correctly. Don't give any wrong information regarding food/beverage/restuarant/serving time etc. asked by the guest. If you don't know or not sure about that, politely request the guest to give you few minutes for giving the information/right answer. You can ask your Seniors/Supervisor/Manager/Chefs to know about any information. ''Would you please give me 2 minutes? Let me ask my Manager for the right information/answer. Thank you''",
+    "- Describe the menu itemsd in an appetizing manner.",
+    "- Inform about all portion sizes",
+    "- Be patient. Always give full concentration during order taking and plating orders.",
+    "- Don't show over smartness during order taking.",
+    "- Don't create any pressure or push the guests during oder taking.",
+    "- Always smile and show genuine interest about guest's choices and comliment about their choices. 'That's great choice , Sir'",
+    "- Always repeat the guest order, 'may I repeat back your oder? You appetizer will  be I Thod Mun Goong and I Gai Satay, You odered I Tom Yum Goong soup foloowed by i panang gai curry aand i pahad Thai as your main course.appetizers and soup will take 10 to 15 minutes and your main course will be served within 20 minutes, if you need anything else, please don't hesitate to call me, my name is niaz. Thank you for valuable time.'",
+    "- Inform guest the expected service time",
+    "- Estimate the serving time"
+  ],
+  "servingthefoodmenuString": [
+    "- Here is your Pomegranate Chicken Mr.David",
+    "- This is your Chicken Hot nd Sour Soup, Mr.Turner",
+    "- Here is the sauce ro o with your Snapper fish"
+  ],
+
+  "alwaysrespondingString": [
+    "When the guest asks for something you can provide",
+    "- certainly, Mr.David, Right away.",
+    "when there is a delay to attend to the guest request",
+    "- I'm sorry to have you kept you waiting, Mr.david Here is your extra sauce.",
+    "- Is there anything else i can bring you?"
+  ],
+  "cannotprovideString": [
+    "- I'm sorry, Mr.David, we have just run out of Fresh fries, but i can bring you potato wedges. would that be suitable?",
+    "- I'm very sorry, mrs. Turner. we have sold all the special veg Burgers"
+  ],
+  "NotsureString": [
+    "- Just a moment, please, MR.David i'll find out for you.",
+    "- I'm afraid am not sure, but I'll ask right away."
+  ],
+  "CheckingGuestSatisfactionString": [
+    "- How is your Pomegranete Chicken mr.David?",
+    "- Is everything to your satisfication?",
+    "- If the guest praises about fod or the restaurant.",
+    "- Thank you very much, mr.David",
+    "- I'm glad you liked the food.",
+    "- I will pass on this complements to our chef.",
+    "- Thank you. I am very happy to know that you like it here,Mr David. If the guest praises about our service",
+    "- Thank you, Mr David",
+    "- It's my pleasure. Thank you very much for your compliments/comments"
+  ],
+  "aftermealString": [
+    "- How was your meal, Mr.David?",
+    "- Did you enjoy your meal?",
+    "- I do hope that everything was satisfactory"
+  ],
+  "clearingtableString": [
+    "- All glasses, dishes and flatware are cleared as courses are finished by all guests. Empty glassware should be removed before new beverage is served.Ashtrays are changed prior to each course and additionally as required, is this finished,Mr.David?(Elegantly point to the glass, bottle or dish.)",
+    "- May I clear your (plates / glasses / dessert spoon)?"
+  ],
+  "TakingorderdessertString": [
+    "- Would you like to see the dessert menu, (sir)? we hve some excellent desserts.",
+    "- Would you care for one of our special signature desserts?",
+    "- Can i tempt you to a delicious dessert? Mr.Bruce.",
+    "- May I suggest the (Mango with sticky rice)?",
+    "- I would recommend our chef's special Eggles Chocolate Mousse?"
+  ],
+  "TakingorderCoffeString": [
+    "- May I bring you some tea or coffee?",
+    "- Would you care for some tea or coffee?",
+    "- Would you like to have some Mint Tea/Green Tea?",
+    "- Mr.wilson we have Full fat, low fat and skim milk and one dairy substitute are available for coffee.",
+    "- We have Coffee (regular and deccaffeinated) is freshly brewed and served with cream and milk selection.",
+    "- varieties of reguala, herbal and deccaffeinated teas are available. A minimum varienty of four teas is available.",
+    "- Sugar and (2) sugar substitutes - Splenda (requirement in NAD) and aspartame or saccharine - are placed on the tble prior to coffee anf tea service"
+  ],
+  "OfferingString": [
+    "- Would you care for some more?",
+    "- May I offer you more tea/coffee?",
+    "- Mr.David, would you like me to top up your coffee",
+    "- May i bring you another (cup/pot) of (coffee/tea)?"
+  ],
+  "AnnouncelastorderString": [
+    "- Important Note: Always show that you care while announcing last order, be very polite so that the guest do not feel that they are no longer welcome.",
+    "- Excuse me, (sir)but...We take our last orders at (2300hrs).",
+    "- The (Restaurant / Bar) is closing in (5 minutes), would you like order anything else?",
+    "- By the Way ms.Sandy no hurry, please take your time to finish your (meal/drinks)."
+  ],
+  "HandlingbillsString": [
+    "- Ensure the bill is accurate, Always Double check the bill before presenting it to the guest.",
+    "- The bill is presented in a company bill folder and pen, Retire from the table anf stay whithin the vicinity",
+    "- Recover the check and means of payment.",
+    "- Thank the guest anf process quickly.",
+    "- Payment should be done in 4-5 minutes"
+  ],
+  "guestdepartureString": [
+    "- Thank the guest by name and bid farewell to all members of the party.",
+    "- Help customers leave their table",
+    "- When assisting the guest, ensure ladies first.",
+    "- Always says: ''Hope to see you again'' ",
+    "- table should be reset immediately. (Must)"
+  ],
+  "goodRestaurantserver": [
+    "- Being a good restaurant server takes more than a smile and coordination for handling dinner plates. initially, restuarant patrons might choose a place to eat based on the restuarant's reputation, location and reviews they read about the quality of food.However, when they receive good service from a Server who enjoys what he/she does for a living, it makes the experience one worth returning for and an experience they'll recommend to friends. Provide good service to fellow employees as well -- being a good server also means being a reliable and helpful co-workers."
+  ],
+  "step1String": [
+    "Greet your customers in a friendlyy and cordial manner, wile it's acceptable to greet your regular customers in a familiar manner, extend a professional and polite greeting to customers who are new to the restaurant or new to your section. Acknowledge your customers right away; no one appreciates being ignored. If you're too busy to take their orders immediately, assure your customers that you will return quickly to get their drink orders and go tover the menu with them."
+  ],
+  "step2String": [
+    "Memorize the daily specials or be familiar enough with the restaurant's specialties to describe them in detail,Never suggest that a restaurant dish isn't tasty -- leave that up to the patron. Support your restaurant's expertise and the chef's skill. However, if there is  a menu item that you believe isn't the among the chef's best dishes, kindly steer the customer to a similar plate. For example, if you know the kansas city strip steak cut is tough, you might say ''if you like a more tender and flavorful cut of beef, you might enjoy the rib eye. it's our chef's specialty'' "
+  ],
+  "step3String": [
+    "Engage customers in enough small talk to move them feel welcome, but not so much that you interrupt the dining experience. Maintain relationships you have with you interrupt the dining experience. Maintain relationships you have with your regular customers and cultivate relationships with the restuarant's new customers. For example, with your regular customers, comment on how long it's been since they were last in, which shows that you're glad to see their return. invite new customers to come back often and, if your work rules permit it let them know when you're working so you can anticipate seeing them again."
+  ],
+  "step4String": [
+    "Be observant, Take notice when your customers drinks are low nd check back with them throughtout the meal to ensure they're enjoyingg the meal. Time your questions about the meal -- don't ask while they're chewing. Likewise, when you notice your customers are finished eating, offer dessert or coffee to top off the meal. Many restuarants have rotating dessert menus, so be sure you know the current items. If your customers aren't interested in dessert, don't rush them off; casually mention that you'll return with their check shortly."
+  ],
+  "step5String": [
+    "Handle mistakes graciously, if you give the customer the wrong dish or add the dinner check incorrectly, apologize in a sincere tone and correct the mistake as quickly as  possible. Regardless of who made the mistake, give the correct order to the chef and tell that it's to replace an incorrect order, if you made an error with the bill, alert your manager so you can correct it right away."
+  ],
+  "step6String": [
+    "Share your tips with co-workers whenever appropriate. Servers often get help from bussers who clear their tables and bartenders who mix their customers'drinks. One of the unwritten rules of restaurant work and food service is that waitresses give  portion of their tips to other restuarant staff that make their jobs easier.Also, be a reliable and dependable team member. limit the times you're absent or late for work; if possible, always alert your supervisor ahead of time when you're going to be off or if you can't make it to your shift on time."
+  ],
+  "SeatingGuestString": [
+    "When guests come t your restuarant, you should treat them as if they are friends visting your home. Treating your guests with care and providing an exceptional place for them to enjoy a meal is part of the reason they willl come back to your restaurant again"
+  ],
+  "ExceptionalQualityString": [
+    "When customers come through your doors, they expect quality in every aspect of the restaurant, Guest are looking for a value in the things they see, taste and touch and so providing them with exceptional quality will certainly leave a good taste in their mouths"
+  ],
+  "FoodQualityString": [
+    "Food and beverage is probably the biggest indicator of quality that a customer notices. Food quality is not only important to the customers' impressions of the overall restaurant experience, but it is important for the health, as well. Guests' health should never be compromised. Although not all restaurant can boast the best quality food in town, they can still take measures to ensure that food is stored and prepared safely, Take the following considerations when assuring food quality in your restaurant:",
+    "",
+    "- Be sure to follow proper first-in, first-out (FIFO) rotation with all food products.",
+    "- Properly label and date all food",
+    "- Never serve food that has expired",
+    "- Prepare products safely, avoiding cross-contamination with dangerous bacteria or cross-contact with allergians.",
+    "- Wash hands before and after handling food products.",
+    "- Prepare and serve foods at proper, saafe temperatures"
+  ],
+  "QualityAtmosphereString": [
+    "When guests enter your restaurant, they should feel as though they are in a special, comfortable place. Try these seggestions to create a superior ambience in your restuarant:",
+    "",
+    "- Make deliberate choices with lighting, Consider your concept, and be sure the strength of the light suits the tone you wish to portray your guests",
+    "- Choose music carefully, Make sure the volume of your music is audible but not distracting.Music should help create the ambience rather than overwhelm it.",
+    "- Decorate appropriately, Decorate your restaurant with a special, unique theme or focal point.",
+    "- Keep the restaurant spotless. Even a quick-service restaurant needs to demonstrate a high standard of cleanliness for customers to feel good about the quality of food",
+    "- Maintain the temperature. Maintain a comfortable inside temperature in your building . 70 degrees usually acceptable.Minimize drafts or hot spots from lights as much as possible."
+  ],
+  "MemorableServiceString": [
+    "Perhaps even more important than food quality is the service the customers experience from the time they enter the restaurant until the time they walk out the doors.Although restuarants thrive because of sales, the sale should never be put before the customer's needs."
+  ],
+  "SpeakwithCustomerString": [
+    "- In any restaurant or food service environment, speaking to customers should always involve the utmost respect and courtesy. This goes for all workers, from drive-thru attendants to servers at fine dining establishments.This is rather idealistic.However, restaurant workers should follow these general guidelines when speaking with customers:",
+    "",
+    "- Use respectful titles, such as ''sir'' and 'ma'ma'.",
+    "- Be optimistic, and speak with a smile",
+    "- Never interrupt or talk over guests' conversations if you can help it.",
+    "- Know your menu so you can speak intelligently to educate guests.",
+    "- Listen with respect and care to what the customer has to say",
+    "- Be sure you ask questions to clarifyt a customer's order if there is any confusion.",
+    "- Be honest and straight-forward with customers at all times, especially if there is a problem",
+    "",
+    "A birthday cake with the wording 'Happy Birthday to betty' has been arranged for tonight,\n Should you have any other request, please let us know.\n Thank you very much for making the reservation and we look forward to being of service to you and your (guest) this evening."
+  ],
+  "AnswerPhoneInBusyString": [
+    "When answering the telephone in a busy restuarant, never answer with 'Thanks for calling, hold please,' as this immediately belittes the person on the other end.\n If the phone rings whileyou are helping another guest, politely ask the guest to excuse you for a moment, then answer the phone. \n After greeting appropriately, let the person on the other line know yoou will be able to help them momentarilly.\n Finish helping your current guest and come back to the phone within the next minute if possible."
+  ],
+  "ServeClearFoodString": [
+    "Serving etiquette varies depending on the restaurant serving type. The restaurant types where this matters the most upscale or fine dining restaurants. Managers should train their servers in proper table etiquette.The following tips describe the basics: ",
+    "Serve in the appropriate order. Service order is usually an important standard upheld in fine dining restaurants or formal banquests. In these dining establishments, it is appropriate to serve the guest of honor first, then the female guests and then the males, in less formal restuarants, it is acceptable to simply serve women before men.",
+    "",
+    "Serve and clear food from the left,Servers should serve and clear food from the diner's left side. Some formal restaurants advise serving with the ledt hand for these tasks. Serving from the left is best since most diners are right-handed.Politely excuse your self if you find that you are interruptin or reaching.",
+    "Serve and pour beverages from the right. Serve or pour beverages from the diner's right side since that is usually where glasses are set on the table.",
+    "Serve the correct order to each guest. When serving food, servers and food runners should not call out entrees to see who at the table claims the dishes. Servers and food runners should have a system to identify which plates correspond to which guest without having to mimic an auction house",
+    "Never rush a party to finish, Good service extends beyond the meal to the entire length of time the party is inside the restaurant.",
+    "Clear all plates at the same time, Unless otherwise requested, clear all plates at the same time, and before presenting check."
   ]
 }

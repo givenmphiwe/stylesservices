@@ -9,7 +9,12 @@
 
 .sect {
     width: 100;
-    min-height: 100vh;
+    min-height: 120vh;
+    background-color: #ddd;
+}
+.sectionss{
+    width: 100;
+    min-height: 180vh;
     background-color: #ddd;
 }
 .containa{

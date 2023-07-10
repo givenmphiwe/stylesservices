@@ -4,36 +4,51 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Waiter from "../assets/waiter.jpg";
 import { useNavigate } from "react-router-dom";
 
-export const WaiterThree = () => {
-  const navigate = useNavigate();
 
+export const WaiterSix= () => {
+const navigate = useNavigate();
+  
   return (
-    <div className=".sectionss">
+    <div className="sect">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Waiter Training</h1>
+            <h1>Restaurant Service Training</h1>
           </div>
 
           <div className="contety">
             <div className="image-sec">
               <img src={Waiter} />
             </div>
-            <h3>Menu Present service standards</h3>
+            <h3>Handling Bills and final settlement</h3>
+            
+            <ul>
+              {data.HandlingbillsString?.map((item, i) => {
+                return <p className="list-items" key={i}>{item}</p>;
+              })}
+            </ul>
 
-            {data.PresentmenuStrings?.map((item, i) => {
-              return (
-                <ul className="list-items" key={i}>
-                  {item}
-                </ul>
-              );
-            })}
+            <h3>Guest Departure and Fond Farewell</h3>
+            
+            <ul>
+              {data.cannotprovideString?.map((item, i) => {
+                return <p className="list-items" key={i}>{item}</p>;
+              })}
+            </ul>
+
+            <h3>How to be Good Restaurant Server</h3>
+            
+            <ul>
+              {data.goodRestaurantserver?.map((item, i) => {
+                return <p className="list-items" key={i}>{item}</p>;
+              })}
+            </ul>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Waiter-four")}>Next</a>
+              <a onClick={() => navigate("/Waiter-seven")}>Next</a>
             </div>
             <div className="strt-btn">
-              <a onClick={() => navigate("/Waiter-two")}>Previous</a>
+              <a onClick={() => navigate("/Waiter-four")}>Previous</a>
             </div>
           </div>
           <div className="icons-medi">

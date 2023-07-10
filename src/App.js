@@ -20,6 +20,11 @@ import { WaiterIntro } from "./components/TrainingComponents/Waiter-intro";
 import { WaiterOne } from "./components/TrainingComponents/Waiter/waiter-one";
 import { WaiterTwo } from "./components/TrainingComponents/Waiter/waiter-two";
 import { WaiterThree } from "./components/TrainingComponents/Waiter/waiter-three";
+import { WaiterFive } from "./components/TrainingComponents/Waiter/waiter-five";
+import { WaiterFour } from "./components/TrainingComponents/Waiter/waiter-four";
+import { WaiterSix } from "./components/TrainingComponents/Waiter/waiters-six";
+import { WaiterSeven } from "./components/TrainingComponents/Waiter/waiter-seven";
+import { WaiterEight } from "./components/TrainingComponents/Waiter/waiter-eight";
 
 const App = () => {
   let routes = useRoutes([
@@ -42,6 +47,14 @@ const App = () => {
     { path: "Waiter-one", element: <WaiterOne/>},
     { path: "Waiter-two", element: <WaiterTwo/>},
     { path: "Waiter-three", element: <WaiterThree/>},
+    { path: "Waiter-four", element: <WaiterFour/>},
+    { path: "Waiter-five", element: <WaiterFive/>},
+    { path: "Waiter-six", element: <WaiterSix/>},
+    { path: "Waiter-seven", element: <WaiterSeven/>},
+    { path: "Waiter-eight", element: <WaiterEight/>},
+
+
+
 
   ]);
   return routes;
