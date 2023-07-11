@@ -5,7 +5,7 @@ import Waiter from "../assets/waiter.jpg";
 import { useNavigate } from "react-router-dom";
 
 
-export const WaiterTwo = () => {
+export const WaiterFour = () => {
 const navigate = useNavigate();
   
   return (
@@ -29,10 +29,10 @@ const navigate = useNavigate();
             </ul>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Waiter-three")}>Next</a>
+              <a onClick={() => navigate("/Waiter-five")}>Next</a>
             </div>
             <div className="strt-btn">
-              <a onClick={() => navigate("/Waiter-one")}>Previous</a>
+              <a onClick={() => navigate("/Waiter-three")}>Previous</a>
             </div>
           </div>
           <div className="icons-medi">

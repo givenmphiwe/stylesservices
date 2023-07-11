@@ -9,7 +9,7 @@ export const WaiterEight= () => {
 const navigate = useNavigate();
   
   return (
-    <div className="..sect">
+    <div className="sectionseight">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
@@ -99,7 +99,7 @@ const navigate = useNavigate();
             </ul>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("")}>Next</a>
+              <a onClick={() => navigate("/waiter-nine")}>Next</a>
             </div>
             <div className="strt-btn">
               <a onClick={() => navigate("/Waiter-seven")}>Previous</a>

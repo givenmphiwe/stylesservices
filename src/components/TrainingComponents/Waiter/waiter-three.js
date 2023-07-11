@@ -8,7 +8,7 @@ export const WaiterThree = () => {
   const navigate = useNavigate();
 
   return (
-    <div className=".sectionss">
+    <div className="sectionss">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">

@@ -14,8 +14,19 @@
 }
 .sectionss{
     width: 100;
-    min-height: 180vh;
+    min-height: 190vh;
     background-color: #ddd;
+}
+.sectionsssss{
+    width: 100;
+    min-height: 230vh;
+    background-color: #ddd;
+}
+.sectionseight{
+    width: 100;
+    min-height: 430vh;
+    background-color: #ddd;
+
 }
 .containa{
     width: 80%;

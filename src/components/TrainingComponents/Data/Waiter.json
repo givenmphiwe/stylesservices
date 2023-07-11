@@ -214,5 +214,66 @@
     "Serve the correct order to each guest. When serving food, servers and food runners should not call out entrees to see who at the table claims the dishes. Servers and food runners should have a system to identify which plates correspond to which guest without having to mimic an auction house",
     "Never rush a party to finish, Good service extends beyond the meal to the entire length of time the party is inside the restaurant.",
     "Clear all plates at the same time, Unless otherwise requested, clear all plates at the same time, and before presenting check."
+  ],
+  "GuestComplaintsStrings":[
+    "approach the guest and ask politely if there is a problem:",
+    "Excuse me, may I help you Mr.samuel?",
+    "Listen with concern ad empathy",
+    "Stay calm, And never argue with the guest.",
+    "Be aware of the guest's self-esteem, Show a personal interest in the problem, Try to use the guest name frequently.",
+    "Tell the guest what can be best done. ofer choices. Don't promise the impossible and don't exceed your authority",
+    "Set an approximate time for completion of corrective actions. BE specific, but do not underestimate the amount of time it will take to resolve the problem.",
+    "Monitor the progress of the corrective action done toresolve the guest complaint.",
+    "Follow up. Even if the complaint was resolved by someone else, Contact the guest to ensure that the problem was resolved satisfaactory",
+    "Restaurant staff should take corrective acttions without any hesitation"
+  ],
+  "ApologizingAndTakingActionStrings":[
+    "I'm so sorry (about this), Mr.samuel",
+    "I'm terribly sorry (about this)",
+    "please accept (our/ my) sincere apologies, Mrs.david",
+    "For Complaints about the food",
+    "Shall I bring you another juice?",
+    "I'll bring you another one right away",
+    "I'll change it right away",
+    "I'll speak to the chef, and see what we do.",
+    "Would you like your steak cooked a little more?",
+    "Would you lke to order something elsee instead?",
+    "I'll have the kitchen prepare another one. Would you like some wine while you are waiting?"
+  ],
+  "Aboutservice":[
+    "- I'll attend to it right away./ I'll look into the matter at once.",
+    "- I'll see bout your order right away.",
+    "- Excuse me, Mr.Bernard. it will be about another (15) mminutes for youe chicken soup to get ready.",
+    "- Your food will be ready in about (15) minutes. (Apologize if there has been a delay,) Thank you for your patience."
+  ],
+  "AboutAirconditon":[
+    "I'll turn the air-conditioning (down / up / off).",
+    "Would you like to move to warmer place / table?"
+  ],
+  "Abouttable":[
+    "I'm afraid all the tables (near the pool / lake view area) are already taken. I'll let you know as soon as when one is free. I'm sorry, but the restaurant is very full at the moment. This is the only table i can offer you."
+  ],
+  "Spillageandbreakages":[
+    "Let me help you, Mr.Wilson. / Allow me, Mr.David",
+    "I'll fetch you a (towel / some water).",
+    "I do apologize for the accident. Mr.langer, May I have it dry cleaned for you?"
+  ],
+  "SpeedofService":[
+    "Speed of service is an important phrase in most quick-service and fast-casual restuarants. These restaurants capitalize on convenienve and speed. They often have a speed of service goal built into their policies.",
+    "See the Example below:",
+    "A fast-casual pizza place might have a speed of service goal of 10 minutes from the moment the order is taken to the moment the receives the pizza.",
+    "A smoothie shop or coffee house might have a more aggressive goal of three minutes, since these drinks require less assembly and preparation.",
+    "Speed of service is integral to to a positive dining experience no matter the restuarant service type. A guest will likely form expectations as to how long they should wait for the food, depending on the restaurant. The guest will be annoyed if his two-dollar cheeseburger took ten minutes to serve, but in a fine dining restaurant, that guest will probably not get upset until he hs waited half an hour or more for his entree.Make it your goal to accommodate all guests with the same quality food within the same time frame at all hours of the work day."
+  ],
+  "CaringUpsetCustomer":[
+    "Now and again there are bound to be problems. A customer may be dissatisfied with his meal or my find the quality to be below his standards, sometimes guests will find the need to vent anger or annoyance before the problem can be resolve. Be sure to train servers the proper wys to handle customer complaints. Retaining upset customers can be a challenge. When you put in the effort and respect to recover distressed customers, you may be able to convince them to return to yor establishment in the future"
+  ],
+  "tablenotReady": [
+    "I'm very sorry Mr.Sam; your table is not qite ready. It'll be ready in about 10 - 15 minutes. would you like to have a drink at our lounge bar while waiting?",
+    "- When the guest's reserved table has been given away",
+    "Apologize: I am sorry, Mr.Sam we hve given away your table by mistake. I am very sorry.",
+    "Request the guest to wait: May we host you a drink at the bar while we solve the problem?",
+    "If the gues agrees to wait at teh bar: this way please Mr. Sam",
+    "When you arrive at the bar: I hope you will enjoy your drink. I will return when  table is ready."
   ]
 }
