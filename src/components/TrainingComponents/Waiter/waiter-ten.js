@@ -47,7 +47,7 @@ const navigate = useNavigate();
             </ul>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Waiter-ten")}>Next</a>
+              <a onClick={() => navigate("/Waiter-quiz")}>Start quiz</a>
             </div>
             <div className="strt-btn">
               <a onClick={() => navigate("/Waiter-nine")}>Previous</a>

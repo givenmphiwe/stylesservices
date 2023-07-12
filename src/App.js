@@ -27,6 +27,7 @@ import { WaiterSeven } from "./components/TrainingComponents/Waiter/waiter-seven
 import { WaiterEight } from "./components/TrainingComponents/Waiter/waiter-eight";
 import { WaiterNine } from "./components/TrainingComponents/Waiter/waiter-nine";
 import { WaiterTen } from "./components/TrainingComponents/Waiter/waiter-ten";
+import { WaiterQuiz } from "./components/TrainingComponents/Waiter/waiter-quiz";
 
 const App = () => {
   let routes = useRoutes([
@@ -56,11 +57,7 @@ const App = () => {
     { path: "Waiter-eight", element: <WaiterEight/>},
     { path: "Waiter-nine", element: <WaiterNine/>},
     { path: "Waiter-ten", element: <WaiterTen/>},
-
-
-
-
-
+    { path: "Waiter-quiz", element: <WaiterQuiz/>},
 
   ]);
   return routes;

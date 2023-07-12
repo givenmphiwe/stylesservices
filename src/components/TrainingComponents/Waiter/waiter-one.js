@@ -13,7 +13,8 @@ const navigate = useNavigate();
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Waiter Training</h1>
+            <h1>STYLES TRAINING ACADEMY</h1>
+            <h2>Waiter Training</h2>
           </div>
 
           <div className="contety">

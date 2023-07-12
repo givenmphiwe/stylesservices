@@ -61,7 +61,7 @@ const navigate = useNavigate();
               })}
             </ul>
 
-            <h3>Spillaes and Breakages</h3>
+            <h3>Spillages and Breakages</h3>
             <ul>
               {data.Spillageandbreakages?.map((item, i) => {
                 return <p className="list-items" key={i}>{item}</p>;

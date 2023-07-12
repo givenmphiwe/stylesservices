@@ -9,10 +9,12 @@ export const WaiterIntro = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sect">
+    <div className="sectionss">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
+          <h1>STYLES TRAINING ACADEMY</h1>
+
             <h1>Waiter Training</h1>
           </div>
 
