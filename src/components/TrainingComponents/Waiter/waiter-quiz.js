@@ -62,14 +62,51 @@ export const WaiterQuiz = () => {
 		},
 
 		{
-			questionText: 'During service time, waiters are not allowed to?',
+			questionText: 'If a waiter tells the kitchen they need an order `on the fly` what exactly are they asking for?',
 			answerOptions: [
-				{ answerText: 'Serve the guests any more drinks?', isCorrect: false },
-				{ answerText: 'Stand together and talk with fellow waiters?', isCorrect: false },
-				{ answerText: 'Call your table in the kitchen when guests are ready for next course?', isCorrect: false },
-				{ answerText: 'Re-set any tables between courses?', isCorrect: true },
+				{ answerText: 'Something cooked in an airplane', isCorrect: false },
+				{ answerText: 'Something cooked slowly', isCorrect: false },
+				{ answerText: 'Something cooked quickly', isCorrect: true },
+				{ answerText: 'Something cooked tomorrow', isCorrect: false },
 			],
 		},
+		{
+			questionText: 'What is it called when a waiter or waitress works two shifts consecutively?',
+			answerOptions: [
+				{ answerText: 'A Single', isCorrect: false },
+				{ answerText: 'A Triple', isCorrect: false },
+				{ answerText: 'A Double', isCorrect: true },
+				{ answerText: 'A Quad', isCorrect: false},
+			],
+		},
+		{
+			questionText: 'Following food service, who is responsible for clearing and resetting tables?',
+			answerOptions: [
+				{ answerText: 'Busser', isCorrect: true },
+				{ answerText: 'barbell', isCorrect: false },
+				{ answerText: 'Hostess', isCorrect: false },
+				{ answerText: 'Expeditor ', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'If a customer says they want their pasta cooked "al dente," what do they mean?',
+			answerOptions: [
+				{ answerText: 'They want their pasta mushy', isCorrect: false },
+				{ answerText: 'They want their pasta firm', isCorrect: true },
+				{ answerText: 'They want their pasta cooked in the oven', isCorrect: false },
+				{ answerText: 'They want ehir pasta cooked outside', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is the name of the area designated for servers to retrieve drinks made by the bartender?',
+			answerOptions: [
+				{ answerText: 'Service Plot', isCorrect: false },
+				{ answerText: 'Beer Arena', isCorrect: false },
+				{ answerText: 'Bev Spot', isCorrect: false },
+				{ answerText: 'Service Bar', isCorrect: true },
+			],
+		},
+		
 	];
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
