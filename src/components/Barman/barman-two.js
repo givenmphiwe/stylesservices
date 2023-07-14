@@ -43,7 +43,6 @@ export const BarmanTwo = () => {
               );
             })}
 
-
             <h3>IE</h3>
             {data.Bartenders?.map((item, i) => {
               return (
@@ -52,6 +51,16 @@ export const BarmanTwo = () => {
                 </p>
               );
             })}
+
+            <h3>Taking Orders as Bartender</h3>
+            {data.TakeOrders?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
 
             <div className="strt-btn">
               <a onClick={() => navigate("")}>Next</a>

@@ -96,5 +96,13 @@
   ],
   "Bartenders":[
     "Bartenders work directly with customers by mixing and serving drink orders. Their responsibilities include verifying age requirements, knowing alcohol pairing and tastes, knowing how to make traditional and classy drinks, processing payments, managing inventory and cleaning bar supplies."
+  ],
+  "TakeOrders":[
+    "A large part of being a bartender is communicating with customers and nurturing relationships. A bar milieu is often chaotic and loud, and bartenders must be highly proactive about taking orders. Multiple customers may sidle up to the bar at once, and a bartender will communicate efficiently and effectively which each one.",
+    "These days, drink menus have seasonal ingredients and obscure terminology that can leave customers clueless as to what to order. Good bartenders are friendly professionals willing to answer questions and guide guests through the menu."
+  ],
+  "ServeDrinksSnacks":[
+    "Bartenders can serve dozens, if not hundreds, of drinks during peak hours. This means taking orders, mixing drinks, and processing payments. The bartender might have multiple tabs running with new orders coming in at every turn.",
+    "It’s essential for those who get into the craft not to forget the customer service aspect of bartending. Bartenders must live by the mantra that there’s no such thing as a bad drink. In other words, the customer gets what they want."
   ]
 }
