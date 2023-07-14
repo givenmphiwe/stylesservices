@@ -8,7 +8,7 @@ export const BarmanTwo = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectionsssss">
+    <div className="sectionsfive">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
@@ -43,6 +43,16 @@ export const BarmanTwo = () => {
               );
             })}
 
+
+            <h3>IE</h3>
+            {data.Bartenders?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
             <div className="strt-btn">
               <a onClick={() => navigate("")}>Next</a>
             </div>
@@ -50,7 +60,6 @@ export const BarmanTwo = () => {
             <div className="strt-btn">
               <a onClick={() => navigate("/Barman-one")}>Back</a>
             </div>
-
           </div>
           <div className="icons-medi">
             <a href="#">
