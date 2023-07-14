@@ -34,6 +34,10 @@ export const BarmanTwo = () => {
               );
             })}
 
+            <div className="image-sec">
+              <img src={Barman} />
+            </div>
+
             <h3>The types of glasses used for the beer service are</h3>
             {data.BeerServiceAre?.map((item, i) => {
               return (
@@ -60,7 +64,6 @@ export const BarmanTwo = () => {
                 </p>
               );
             })}
-
 
             <div className="strt-btn">
               <a onClick={() => navigate("")}>Next</a>
