@@ -16,7 +16,7 @@ export const BarmanThree = () => {
           </div>
 
           <div className="contety">
-            <h3>1.Memory</h3>
+            <h3>Memory</h3>
             {data.Memory?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
@@ -43,7 +43,7 @@ export const BarmanThree = () => {
               );
             })}
 
-            <h3>flexibility</h3>
+            <h3>Flexibility</h3>
             {data.Flexibility?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
