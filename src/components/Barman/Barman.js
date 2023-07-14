@@ -71,13 +71,13 @@ export const BarmanOne = () => {
             </div>
           </div>
           <div className="icons-medi">
-            <a href="#">
+          <a href="https://www.facebook.com/stylesservicesgroup">
               <FaFacebook />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/styles_services">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a href="https://instagram.com/stylesservicesgroup/">
               <FaInstagram />
             </a>
           </div>

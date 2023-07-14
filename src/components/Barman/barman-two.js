@@ -47,7 +47,7 @@ export const BarmanTwo = () => {
               );
             })}
 
-            <h3>IE</h3>
+            <h3>I.e</h3>
             {data.Bartenders?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
@@ -66,7 +66,7 @@ export const BarmanTwo = () => {
             })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("")}>Next</a>
+              <a onClick={() => navigate("")}>Start Quiz</a>
             </div>
 
             <div className="strt-btn">
@@ -74,13 +74,13 @@ export const BarmanTwo = () => {
             </div>
           </div>
           <div className="icons-medi">
-            <a href="#">
+          <a href="https://www.facebook.com/stylesservicesgroup">
               <FaFacebook />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/styles_services">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a href="https://instagram.com/stylesservicesgroup/">
               <FaInstagram />
             </a>
           </div>
