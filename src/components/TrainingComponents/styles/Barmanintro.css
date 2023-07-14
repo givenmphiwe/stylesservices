@@ -12,6 +12,11 @@
     min-height: 120vh;
     background-color: #ddd;
 }
+.sectio {
+    width: 100;
+    min-height: 130vh;
+    background-color: #ddd;
+}
 .sectionss{
     width: 100;
     min-height: 190vh;

@@ -1,8 +1,97 @@
-[
-  {
-    "id": "1",
-    "heading": "FINE DININ SEQUENCE OF SERVICE",
-    "description": "Guest should be greeted and welcome with recognition and should be helped with their coats and bags."
-  }
-  
-]
+{
+  "introStrings": [
+    "A bar is a licensed place for selling all kinds of alcoholic beverges to the customer, Bars are found in hotels, resorts, clubs, casinos, and many such establishments and can also be operated as independent units. The bar is one of the key revenue-generating areas of the food and beverage department of the hotel industry"
+  ],
+  "ImportanceBarManagement":[
+    "The main function of the Bar id to serve alcoholic drinks to run the bar smoothly. Bar management acts as both service and a storage area for all these items mentioned.",
+    "The other important requirements for bar operations are water supply, electric supply, lighting, and drainage.So it is the most revenue-generating area that needs proper supervision and control.",
+    "The staff working in the bar may be tempted to drink or sell the liquor without any accountability. The contents should be converted to revenue and any breakage of bottles or spillage must be properly recorded and the manager or in charge notified so that the situation is not misused.",
+    "The liquors are served as straight drinks or Cocktails and the daily consumption must be recorded to forecast the sales and prepare the requisition accordingly."
+  ],
+  "Ales":[
+    "- Barley wine: It is a dark fruity beer with high alcoholic content which ranges from 6 to 11 percent by volume",
+    "- Bitter: It is copper color draught ale with a predominant hop flavor which results in a bitter taste.",
+    "- Brown: It is a dark brown sweet beer, low in alcohol.",
+    "- Stout: A very dark beer made with a high proportion of malt and hops. The world’s most famous stout is Guinness.",
+    "- Scotch ale: It is a very strong, often extremely dark, malt-accented beer from Scotland.",
+    "- Porter: Since this ale is popular amongst the porters of Dublin and London, it is called Porter. It is brewed from charred malt which contributes a bitter taste and dark color.",
+    "- Indian pale ale: It has higher alcoholic strength with a more happy flavor.",
+    "- Burton: A strong, dark, draught beer mulled or spices. It is popular during the winter."
+  ],
+  "Lagers":[
+    "- Bock: It is a strong beer from Germany. In the USA it is darker and sweeter. Belgian bock is less alcoholic.",
+    "- Doppelbock: It is an extra-strong beer from Germany.",
+    "- Dortmunder: It is a blonde beer with a lightly hopped flavor.",
+    "- Munchener: It is a dark brown malty beer with an alcoholic content of around 5 percent.",
+    "- Pilsner: It is a pale gold beer, that originated in Pilsen, Czech Republic. It is the most imitated of all beer styles."
+  ],
+  "SourBeer":[
+    "- Deposits of yeast in the pipes and dispensing equipment.",
+    "- Add stale beer to a fresh cask of beer.",
+    "- Not exhausting the beer on time.",
+    "- Exposing the beer to heavy fluctuations of temperature.",
+    "- Exposed to heavy lighting."
+  ],
+  "CloudyBeer":[
+    "- Stored in low temperature.",
+    "- Uncleaned or poorly cleaned pipes.",
+    "- Trying to pull the beer from the cask before removing the spile."
+  ],
+  "FlatBeer":[
+    "- Poor or faulty spile control – having a soft pile when a hard spile is needed.",
+    "- Too low a temperature.",
+    "- Served in a greasy glass.",
+    "- Poured and left in the glass for a long time."
+  ],
+  "PopularBrands":[
+    "Corono- Mexico.",
+    "Goldstar- Israel.",
+    "Amstel- Netherlands.",
+    "Heineken– Netherlands",
+    "Fosters– Australia",
+    "Tiger beer– Singapore.",
+    "Carlsberg– Denmark.",
+    "Albani– Denmark.",
+    "Achel– Belgium.",
+    "Tuborg– Denmark.",
+    "Koningshoenen– Netherlands.",
+    "Mariawald– Germany.",
+    "Hogarden– Belgium.",
+
+    "The History of Beer",
+    "Brewing beer is believed to be over 10000 years old. Ancient Egyptians brewed beer about 6000 years ago and many civilizations brewed beer from various bowls of cereal.",
+    "Early beer makers used a very simplistic brewing process and fermented beer for only a brief period one to one day at the most. For centuries brewers heated grain over open fires, resulting in dark, smoky malt that produced dark beer with a strong flavor.",
+    "The first beer brewed with hops in the brewing process in the fifteenth century gave a unique bitter taste to the beer and also protected beer from going sour. The introduction of compressed gas refrigeration in the late nineteenth century made the fermenting of beer possible at any time in any seasonal climate.",
+    "Beer is a brewed and fermented drink prepared from malted cereals, especially barley. In the brewing process, the malt is extracted from the cereal by infusing it in the hot water which results in the product called Wort, and the hops are added to the hot wort to obtain flavor and bitter taste. It is then cooled and fermented with the addition of yeast."
+  ],
+  "ServeBeerRestuarant":[
+    "1. While serving the beer make sure to use only clean and appropriate glass without any traces of grease, finger marks, or stains.",
+    "2. And serve the beer at the correct temperature. Most Indians and Americans prefer drinking all kinds of beer chilled. The ideal temperature range for beer service is 13-15 degrees Celsius.",
+    "3. The room temperature for a bottled brown ale, stout, barley wine, and Trappist beer is 16-18 degrees Celsius.",
+    "4. Pour beer with just enough head.",
+    "Note that, the Ale is served at 12-14 degrees Celsius and Lager is the best served at 7-10 degrees Celsius."
+  ],
+  "ServiceBeerRestuarant":[
+    "1. Beer Steins",
+    "",
+    "Beer Steins are heavy thick mugs specially designed to hold beer without breakage. They have sturdy handles for easier lifting.",
+    "Beer Steins are a special kind of beer mug that originated in Germany. Typically they hold between 12 to 16 ounces. A Beer Stein is much like a Beer mug. But includes a thumb rest or a lid.",
+    "",
+    "2. Beer Glass",
+    "Some glasses are specifically designed to hold pints of Beer or Pilaster and larger Beer. Pilaster glasses are flared with the top being wider than the blotto. Pint glasses are large, most tapering down to the bottom.",
+    "Most pubs serve beer which is dispensed through a tap. Pubs in India are gaining more popularity, especially amongst the youth.",
+    "Depending on the type of beer available in the establishment. The waiter serves any of the following types of beer to the guests according to their preferences,",
+    "Draught Beer",
+    "Bottled Beer",
+    "Canned Beer"
+
+  ],
+  "BeerServiceAre":[
+    "Half-pint glass for draught beer",
+    "Beer mug for Bottled beer",
+    "Goblet for Guinness",
+    "Lager glasses for Lager beer",
+    "",
+    "So, the service of beer calls for all skills and extensive knowledge. The wait staff should know the right glassware, the quantity to be poured, the temperature at which each drink should be served, and the alcoholic content of the drinks to ensure customer satisfaction. Every establishment sets its own Standard Operating Procedures (SOP)."
+  ]
+}

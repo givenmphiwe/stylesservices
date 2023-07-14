@@ -1,25 +1,23 @@
 import React from "react";
-import "./styles/Barmanintro.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import Barman from "./assets/barman.jpg";
+import Barman from "../TrainingComponents/assets/barman.jpg";
 import { useNavigate } from "react-router-dom";
+import data from "../TrainingComponents/Data/Barman.json";
 
-import data from "./Data/Barman.json";
-
-export const BarmanIntro = () => {
+export const BarmanTwo = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectio">
+    <div className="sectionsssss">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Barman Training Intro</h1>
+            <h1>How to Serve Beer in a Restaurant</h1>
           </div>
 
           <div className="contety">
-            <h3>What is a Bar?</h3>
-            {data.introStrings?.map((item, i) => {
+            <h3>Points should be kept in mind while serving beer</h3>
+            {data.ServeBeerRestuarant?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -27,8 +25,17 @@ export const BarmanIntro = () => {
               );
             })}
 
-            <h3>What is the importance of Bar Management?</h3>
-            {data.ImportanceBarManagement?.map((item, i) => {
+            <h3>Service Procedure of Beer in Restaurants</h3>
+            {data.ServiceBeerRestuarant?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>The types of glasses used for the beer service are</h3>
+            {data.BeerServiceAre?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -37,8 +44,13 @@ export const BarmanIntro = () => {
             })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Barman-one")}>Start</a>
+              <a onClick={() => navigate("")}>Next</a>
             </div>
+
+            <div className="strt-btn">
+              <a onClick={() => navigate("/Barman-one")}>Back</a>
+            </div>
+
           </div>
           <div className="icons-medi">
             <a href="#">

@@ -106,6 +106,15 @@ export const WaiterQuiz = () => {
 				{ answerText: 'Service Bar', isCorrect: true },
 			],
 		},
+		{
+			questionText: 'What phrase might a diner waitress use to tell the kitchen to put all the condiments on a burger?',
+			answerOptions: [
+				{ answerText: 'Paint a bow-wow red', isCorrect: false },
+				{ answerText: 'Two dots and a dash', isCorrect: false },
+				{ answerText: 'Flop two, over hard', isCorrect: false },
+				{ answerText: 'Drag it through the garden', isCorrect: true },
+			],
+		},
 		
 	];
 
