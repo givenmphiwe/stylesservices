@@ -8,7 +8,7 @@ export const BarmanOne = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectionseight">
+    <div className="sectionsONE">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">

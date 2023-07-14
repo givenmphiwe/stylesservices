@@ -39,6 +39,11 @@
     background-color: #ddd;
 
 }
+.sectionsONE{
+    width: 100;
+    min-height: 370vh;
+    background-color: #ddd;
+}
 .containa{
     width: 80%;
     display: block;
