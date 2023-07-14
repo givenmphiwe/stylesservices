@@ -65,9 +65,6 @@ const App = () => {
     { path: "Barman-two", element: <BarmanTwo/>},
     { path: "Barman-three", element: <BarmanThree/>},
 
-
-
-
   ]);
   return routes;
 };
