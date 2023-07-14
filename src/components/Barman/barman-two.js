@@ -8,7 +8,7 @@ export const BarmanTwo = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectionsfive">
+    <div className="sectionsTwo">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
@@ -26,7 +26,7 @@ export const BarmanTwo = () => {
             })}
 
             <h3>Service Procedure of Beer in Restaurants</h3>
-            {data.ServiceBeerRestuarant?.map((item, i) => {
+            {data.ServiceBeerRestuarants?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}

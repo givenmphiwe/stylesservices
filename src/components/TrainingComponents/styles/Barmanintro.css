@@ -44,6 +44,11 @@
     min-height: 370vh;
     background-color: #ddd;
 }
+.sectionsTwo{
+    width: 100;
+    min-height: 225vh;
+    background-color: #ddd;
+}
 .containa{
     width: 80%;
     display: block;
