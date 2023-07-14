@@ -30,6 +30,7 @@ import { WaiterTen } from "./components/TrainingComponents/Waiter/waiter-ten";
 import { WaiterQuiz } from "./components/TrainingComponents/Waiter/waiter-quiz";
 import { BarmanOne } from "./components/Barman/Barman";
 import { BarmanTwo } from "./components/Barman/barman-two";
+import { BarmanThree } from "./components/Barman/barman-three";
 
 const App = () => {
   let routes = useRoutes([
@@ -62,6 +63,8 @@ const App = () => {
     { path: "Waiter-quiz", element: <WaiterQuiz/>},
     { path: "Barman-one", element: <BarmanOne/>},
     { path: "Barman-two", element: <BarmanTwo/>},
+    { path: "Barman-three", element: <BarmanThree/>},
+
 
 
 

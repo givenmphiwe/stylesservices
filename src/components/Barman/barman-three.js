@@ -4,7 +4,7 @@ import Barman from "../TrainingComponents/assets/barman.jpg";
 import { useNavigate } from "react-router-dom";
 import data from "../TrainingComponents/Data/Barman.json";
 
-export const BarmanTwo = () => {
+export const BarmanThree = () => {
   const navigate = useNavigate();
 
   return (
@@ -12,12 +12,12 @@ export const BarmanTwo = () => {
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>How to Serve Beer in a Restaurant</h1>
+            <h1>Skills for a bartender to have:</h1>
           </div>
 
           <div className="contety">
-            <h3>Points should be kept in mind while serving beer</h3>
-            {data.ServeBeerRestuarant?.map((item, i) => {
+            <h3>1.Memory</h3>
+            {data.Memory?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -25,8 +25,8 @@ export const BarmanTwo = () => {
               );
             })}
 
-            <h3>Service Procedure of Beer in Restaurants</h3>
-            {data.ServiceBeerRestuarant?.map((item, i) => {
+            <h3>Mixology and preparation</h3>
+            {data.Mixology?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -34,12 +34,8 @@ export const BarmanTwo = () => {
               );
             })}
 
-            <div className="image-sec">
-              <img src={Barman} />
-            </div>
-
-            <h3>The types of glasses used for the beer service are</h3>
-            {data.BeerServiceAre?.map((item, i) => {
+            <h3>Communication</h3>
+            {data.Communication?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -47,8 +43,8 @@ export const BarmanTwo = () => {
               );
             })}
 
-            <h3>I.e</h3>
-            {data.Bartenders?.map((item, i) => {
+            <h3>flexibility</h3>
+            {data.Flexibility?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -56,8 +52,53 @@ export const BarmanTwo = () => {
               );
             })}
 
-            <h3>Taking Orders as Bartender</h3>
-            {data.TakeOrders?.map((item, i) => {
+            <h3>Organization</h3>
+            {data.Organization?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Friendliness</h3>
+            {data.Friendliness?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Consistency</h3>
+            {data.Consistency?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>People Skills</h3>
+            {data.PeopleSkills?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Cash Management</h3>
+            {data.CashManagement?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Stamina</h3>
+            {data.Stamina?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -66,7 +107,7 @@ export const BarmanTwo = () => {
             })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Barman-three")}>Next</a>
+              <a onClick={() => navigate("")}>Start Quiz</a>
             </div>
 
             <div className="strt-btn">
@@ -74,7 +115,7 @@ export const BarmanTwo = () => {
             </div>
           </div>
           <div className="icons-medi">
-          <a href="https://www.facebook.com/stylesservicesgroup">
+            <a href="https://www.facebook.com/stylesservicesgroup">
               <FaFacebook />
             </a>
             <a href="https://twitter.com/styles_services">
