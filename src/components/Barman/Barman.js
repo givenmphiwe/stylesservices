@@ -67,9 +67,8 @@ export const BarmanOne = () => {
             </div>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Barman-one")}>Back</a>
+              <a onClick={() => navigate("/Barmanintro")}>Back</a>
             </div>
-
           </div>
           <div className="icons-medi">
             <a href="#">
