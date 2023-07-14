@@ -38,7 +38,7 @@ export const BarmanTwo = () => {
               <img src={Barman} />
             </div>
 
-            <h3>The types of glasses used for the beer service are</h3>
+            <h3>The types of glasses used for the beer service are:</h3>
             {data.BeerServiceAre?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
