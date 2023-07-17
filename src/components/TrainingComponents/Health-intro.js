@@ -2,11 +2,10 @@ import React from "react";
 import "./styles/Barmanintro.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-
+import data from "./Data/HealthCare.json";
 import Health from "./assets/health.jpg";
 
 export const HealthIntro = () => {
-
   const navigate = useNavigate();
 
   return (
@@ -18,12 +17,38 @@ export const HealthIntro = () => {
           </div>
 
           <div className="contety">
-            <h3>Lorem ipsum</h3>
+            <h3>Communication</h3>
 
-            <p>Lorem ipsum</p>
+            {data.Communication?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Important</h3>
+
+            {data.Important?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Why communication skills are important</h3>
+            {data.SkillImportant?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/BarmanTraining")}>Start</a>
+              <a onClick={() => navigate("/Health-one")}>Start</a>
             </div>
           </div>
           <div className="icons-medi">
