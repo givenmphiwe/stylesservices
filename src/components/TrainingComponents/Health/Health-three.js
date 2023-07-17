@@ -4,11 +4,11 @@ import Health from "../assets/health.jpg";
 import { useNavigate } from "react-router-dom";
 import data from "../Data/HealthCare.json";
 
-export const HealthOne = () => {
+export const HealthThree = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectionsONE">
+    <div className="sectionseight">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
@@ -16,8 +16,13 @@ export const HealthOne = () => {
           </div>
 
           <div className="contety">
-            <h3>Patient with loss of sight</h3>
-            {data.sight?.map((item, i) => {
+            <h3>Common Illness</h3>
+            <p>
+              It spread through the air we breath from infected persons. It is
+              more serious than just a normal cold.
+            </p>
+            <h3>Signs and symptoms:</h3>
+            {data.Influenza?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -25,8 +30,8 @@ export const HealthOne = () => {
               );
             })}
 
-            <h3>Patient with loss of speech</h3>
-            {data.Speech?.map((item, i) => {
+            <h3>Treatment</h3>
+            {data.Treatment?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -34,8 +39,8 @@ export const HealthOne = () => {
               );
             })}
 
-            <h3>Confused patient</h3>
-            {data.Disorientated?.map((item, i) => {
+            <h3>prevention</h3>
+            {data.Prevention?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -43,47 +48,8 @@ export const HealthOne = () => {
               );
             })}
 
-            <h3>Patient with weakened hearing</h3>
-            {data.Hearing?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-            <div className="image-sec">
-              <img src={Health} />
-            </div>
-            <h3>Patient who had stroke</h3>
-            {data.stroke?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-            <br />
-
-            <h3>Problems that may occur</h3>
-            {data.problems?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-            <br/>
-            <h3>How to speak to a patient who has had stroke</h3>
-            {data.HadStroke?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-            <br/>
-            <h3>Activities for a stroke</h3>
-            {data.StrokeActivities?.map((item, i) => {
+            <h3>Asthma</h3>
+            {data.Asthma?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -91,8 +57,8 @@ export const HealthOne = () => {
               );
             })}
 
-            <h3>When and what to report to the Registered Nurse/Sister</h3>
-            {data.reportRn?.map((item, i) => {
+            <h3>Urinary Tract Infection</h3>
+            {data.Tract?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -100,21 +66,75 @@ export const HealthOne = () => {
               );
             })}
 
-            {/* <h3>Observations you can make: </h3>
-            {data.Observation?.map((item, i) => {
+            <h3>Sign and symptoms</h3>
+            {data.SignAndSymptoms?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
                 </p>
               );
-            })} */}
+            })}
+
+            <h3>Prevention</h3>
+            {data.UrineHealth?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Heart Attack</h3>
+            {data.HeartAttack?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>EPILEPSY</h3>
+            {data.Epilepsy?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>HEPATITIS</h3>
+            {data.hepatits?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>CATARACT</h3>
+            {data.Cataract?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>ALZHEIMER'S DISEASE</h3>
+            {data.Alzheimer?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Health-two")}>Next</a>
+              <a onClick={() => navigate("/Health-four")}>Next</a>
             </div>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Healthintro")}>Back</a>
+              <a onClick={() => navigate("/Health-two")}>Back</a>
             </div>
           </div>
           <div className="icons-medi">

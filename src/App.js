@@ -32,6 +32,9 @@ import { BarmanOne } from "./components/Barman/Barman";
 import { BarmanTwo } from "./components/Barman/barman-two";
 import { BarmanThree } from "./components/Barman/barman-three";
 import { HealthOne } from "./components/TrainingComponents/Health/Health-one";
+import { HealthTwo } from "./components/TrainingComponents/Health/Health-two";
+import { HealthThree } from "./components/TrainingComponents/Health/Health-three";
+import { HealthFour } from "./components/TrainingComponents/Health/Health-four";
 
 const App = () => {
   let routes = useRoutes([
@@ -66,6 +69,12 @@ const App = () => {
     { path: "Barman-two", element: <BarmanTwo/>},
     { path: "Barman-three", element: <BarmanThree/>},
     { path: "Health-one", element: <HealthOne/>},
+    { path: "Health-two", element: <HealthTwo/>},
+    { path: "Health-three", element: <HealthThree/>},
+    { path: "Health-four", element: <HealthFour/>},
+
+
+
 
 
   ]);
