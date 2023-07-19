@@ -435,6 +435,43 @@
         "",
         "WHEN TO USE SOCIAL HAND WASHING",
         "After making each bed/handling linen.\n Before eating \n Before and after contact with a patient ,\n when hands are visible dirty, \n After the toilet, \n After blowing your nose"
+    ],
+    "BEDBATH":[
+        "To be considered a compentent Advanced Caregiver at anytime, you must always ",
+        "* Have the ability to make Observation",
+        "* Report and record any Observation correctly",
+        "* Be able to impart basic knowledge with the use of simple, yet informative language.",
+        "",
+        "PROCEDURE",
+        "- Obtain permission from the RN",
+        "- Inform patient about the procedure",
+        "- Empty the bladder by offering a bedpan/urinal or empty urine bag.",
+        "- Close windows, curtains and door to ensure privacy",
+        "- Clear area around the patient",
+        "- Prepre a trolley with the following: ",
+        "* Clean linen",
+        "* Two faces cloths(one for the face, one for the rest of the body)",
+        "* Soap",
+        "* Towels",
+        "* Shampoo",
+        "* Glass for dentures"
+    ],
+    "MOUTHCARE":[
+        "We do mouthcate to: ",
+        "* Promote clean, moist mouth.",
+        "* To promote infection and accumulation of food in the mouth",
+        "* To promote appetite",
+        "* To prevent tooth decay.",
+        "* To prevent offensive breath"
+    ],
+    "DIRTYMOUTH":[
+        "Infection of the mouth and throat e.g tonsillitis",
+        "Bad smelling breath",
+        "Bad taste whenn esp. if dirt builds up on the tongue.",
+        "Fibrosis, neuritis and arthritis may develop as secondary infections due to mouth and throat infections.",
+        "Loss of appetite",
+        "Tooth decay"
     ]
+        
 
 }

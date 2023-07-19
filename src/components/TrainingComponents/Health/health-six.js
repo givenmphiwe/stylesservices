@@ -4,7 +4,7 @@ import Health from "../assets/health.jpg";
 import { useNavigate } from "react-router-dom";
 import data from "../Data/HealthCare.json";
 
-export const HealthFive = () => {
+export const HealthSix = () => {
   const navigate = useNavigate();
 
   return (
@@ -16,8 +16,8 @@ export const HealthFive = () => {
           </div>
 
           <div className="contety">
-            <h3>MENTAL ILLINESS</h3>
-            {data.MENTALILLINESS?.map((item, i) => {
+            <h3>BED BATH</h3>
+            {data.BEDBATH?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -25,20 +25,21 @@ export const HealthFive = () => {
               );
             })}
 
-            <h3>TUBERCULOSIS</h3>
-            {data.TUBERCULOSIS?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
             <div className="image-sec">
               <img src={Health} />
             </div>
 
-            <h3>BODY CARE</h3>
-            {data.BODYCARE?.map((item, i) => {
+            <h3>MOUTH CARE</h3>
+            {data.MOUTHCARE?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Complications of a dirty mouth</h3>
+            {data.DIRTYMOUTH?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -47,11 +48,11 @@ export const HealthFive = () => {
             })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Health-six")}>Next</a>
+              <a onClick={() => navigate("/Health-seven")}>Next</a>
             </div>
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Health-four")}>Back</a>
+              <a onClick={() => navigate("/Health-five")}>Back</a>
             </div>
           </div>
           <div className="icons-medi">
