@@ -4,7 +4,7 @@ import Health from "../assets/health.jpg";
 import { useNavigate } from "react-router-dom";
 import data from "../Data/HealthCare.json";
 
-export const HealthFour = () => {
+export const HealthFive = () => {
   const navigate = useNavigate();
 
   return (
@@ -16,8 +16,8 @@ export const HealthFour = () => {
           </div>
 
           <div className="contety">
-            <h3>PRKINSON'S DISEASE</h3>
-            {data.PRKINSON?.map((item, i) => {
+            <h3>MENTAL ILLINESS</h3>
+            {data.MENTALILLINESS?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -25,44 +25,20 @@ export const HealthFour = () => {
               );
             })}
 
-            <h3>CONSTIPATION</h3>
-            {data.CONSTIPATION?.map((item, i) => {
+            <h3>TUBERCULOSIS</h3>
+            {data.TUBERCULOSIS?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
                 </p>
               );
             })}
+            <div className="image-sec">
+              <img src={Health} />
+            </div>
 
-            <h3>DIABETES</h3>
-            {data.DIABETES?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Diabetic's food problems</h3>
-            {data.DIABETESFOOD?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>CANCER</h3>
-            {data.CANCER?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>BRAIN ATTACK/STROKE</h3>
-            {data.BRAINATTACK?.map((item, i) => {
+            <h3>BODY CARE</h3>
+            {data.BODYCARE?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
