@@ -38,6 +38,7 @@ import { HealthFour } from "./components/TrainingComponents/Health/Health-four";
 import { HealthFive } from "./components/TrainingComponents/Health/Health-five";
 import { HealthSix } from "./components/TrainingComponents/Health/health-six";
 import { HealthQuiz } from "./components/TrainingComponents/Health/Quick-Quiz";
+import { HousekeepingOne } from "./components/TrainingComponents/Housekeeping/Housekeeping-one";
 
 const App = () => {
   let routes = useRoutes([
@@ -78,6 +79,9 @@ const App = () => {
     { path: "Health-five", element: <HealthFive/>},
     { path: "Health-six", element: <HealthSix/>},
     { path: "Health-quiz", element: <HealthQuiz/>},
+    { path: "Housekeeping-one", element: <HousekeepingOne/>},
+
+
 
 
 

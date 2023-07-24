@@ -1,13 +1,11 @@
 import React from "react";
-import "./styles/Barmanintro.css";
+import "../styles/Barmanintro.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import Housekeeping from "./assets/housekeeping.jpg";
-import data from "./Data/Housekeeping.json";
+import Housekeeping from "../assets/housekeeping.jpg";
+import data from "../Data/Housekeeping.json";
 import { useNavigate } from "react-router-dom";
 
-
-export const HousekeepingIntro = () => {
-
+export const HousekeepingOne = () => {
   const navigate = useNavigate();
 
   return (
@@ -19,9 +17,29 @@ export const HousekeepingIntro = () => {
           </div>
 
           <div className="contety">
-            <h3>Housekeeping Rules</h3>
+            <h3>Work from the Top Down</h3>
 
-            {data.Rules?.map((item, i) => {
+            {data.TopDown?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Empty Bins Daily</h3>
+
+            {data.DailyBins?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Thoroughly Clean Bathrooms and Kitchens</h3>
+
+            {data.Thoroughly?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
