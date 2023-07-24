@@ -37,6 +37,7 @@ export const HousekeepingTwo = () => {
               );
             })}
 
+
             <h3>Steps to a hotel room</h3>
             {data.steps?.map((item, i) => {
               return (
@@ -45,7 +46,7 @@ export const HousekeepingTwo = () => {
                 </p>
               );
             })}
-            
+
             <div className="strt-btn">
               <a onClick={() => navigate("/Housekeeping-one")}>Next</a>
             </div>
