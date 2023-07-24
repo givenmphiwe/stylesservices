@@ -5,7 +5,7 @@ import Housekeeping from "../assets/housekeeping.jpg";
 import data from "../Data/Housekeeping.json";
 import { useNavigate } from "react-router-dom";
 
-export const HousekeepingOne = () => {
+export const HousekeepingTwo = () => {
   const navigate = useNavigate();
 
   return (
@@ -13,7 +13,7 @@ export const HousekeepingOne = () => {
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Why Take Housekeeping Training?</h1>
+            <h1>Housekeeping Training</h1>
           </div>
 
           <div className="contety">
@@ -37,53 +37,9 @@ export const HousekeepingOne = () => {
               );
             })}
 
-            <h3>Thoroughly Clean Bathrooms and Kitchens</h3>
-
-            {data.Thoroughly?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Use The Checklist</h3>
-            {data.Checklist?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Little and Often Works Wonders</h3>
-            {data.Wonders?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Be Discreet</h3>
-            {data.Discreet?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Check Rooms From a Guest or Principal’s Perspective</h3>
-            {data.Perspective?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
+            
             <div className="strt-btn">
-              <a onClick={() => navigate("/Housekeeping-two")}>Next</a>
+              <a onClick={() => navigate("/Housekeeping-one")}>Next</a>
             </div>
           </div>
           <div className="icons-medi">
