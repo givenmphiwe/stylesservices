@@ -17,9 +17,9 @@ export const HousekeepingTwo = () => {
           </div>
 
           <div className="contety">
-            <h3>Work from the Top Down</h3>
+            <h3>Role of Housekeeping</h3>
 
-            {data.TopDown?.map((item, i) => {
+            {data.Role?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -27,9 +27,9 @@ export const HousekeepingTwo = () => {
               );
             })}
 
-            <h3>Empty Bins Daily</h3>
+            <h3>Hotel Housekeeping</h3>
 
-            {data.DailyBins?.map((item, i) => {
+            {data.HotelHousekeeping?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -37,6 +37,14 @@ export const HousekeepingTwo = () => {
               );
             })}
 
+            <h3>Steps to a hotel room</h3>
+            {data.steps?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
             
             <div className="strt-btn">
               <a onClick={() => navigate("/Housekeeping-one")}>Next</a>
