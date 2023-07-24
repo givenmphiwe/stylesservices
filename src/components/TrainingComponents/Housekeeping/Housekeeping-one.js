@@ -9,7 +9,7 @@ export const HousekeepingOne = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sect">
+    <div className="sectionss">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
@@ -47,8 +47,43 @@ export const HousekeepingOne = () => {
               );
             })}
 
+            <h3>Use The Checklist</h3>
+            {data.Checklist?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Little and Often Works Wonders</h3>
+            {data.Wonders?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Be Discreet</h3>
+            {data.Discreet?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Check Rooms From a Guest or Principal’s Perspective</h3>
+            {data.Perspective?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
             <div className="strt-btn">
-              <a onClick={() => navigate("/Housekeeping-one")}>Start</a>
+              <a onClick={() => navigate("/Housekeeping-one")}>Next</a>
             </div>
           </div>
           <div className="icons-medi">
