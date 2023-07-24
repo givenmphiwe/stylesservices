@@ -48,7 +48,7 @@ export const HealthSix = () => {
             })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Health-seven")}>Next</a>
+              <a onClick={() => navigate("/Health-quiz")}>Start Quiz</a>
             </div>
 
             <div className="strt-btn">
