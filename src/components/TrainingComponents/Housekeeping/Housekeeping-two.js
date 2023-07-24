@@ -38,7 +38,7 @@ export const HousekeepingTwo = () => {
             })}
 
 
-            <h3>Steps to a hotel room</h3>
+            <h3>Steps to clean a hotel room</h3>
             {data.steps?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
