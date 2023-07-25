@@ -5,11 +5,11 @@ import Housekeeping from "../assets/housekeeping.jpg";
 import data from "../Data/Housekeeping.json";
 import { useNavigate } from "react-router-dom";
 
-export const HousekeepingThree = () => {
+export const HousekeepingFour = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectionseight">
+    <div className="sectz">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
@@ -17,45 +17,54 @@ export const HousekeepingThree = () => {
           </div>
 
           <div className="contety">
-            <h3>Preparing</h3>
-
-            {data.Preparing?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Cleaning Materials</h3>
-            {data.materials?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Knocking and Entering</h3>
-            {data.KnockingAndEntering?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
-            <h3>Preparing for Cleaning</h3>
-            {data.prepareclean?.map((item, i) => {
-              return (
-                <p className="list-items" key={i}>
-                  {item}
-                </p>
-              );
-            })}
-
+            
             <h3>Cleaning Guest Bedroom Areas</h3>
             {data.GuestBedroom?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Cupboards, drawers and shelves</h3>
+            {data.CupboardsDrawers?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Guest property</h3>
+            {data.GuestProperty?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Replenishing and checking</h3>
+            {data.Replenishing?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Cleaning Unoccupied Rooms</h3>
+            {data.unoccupiedRoom?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Cleaning of Guest Bathrooms</h3>
+            {data.GuestBathroom?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
