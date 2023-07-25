@@ -28,8 +28,6 @@ export const HousekeepingFive = () => {
               );
             })}
 
-            
-
             <div className="strt-btn">
               <a onClick={() => navigate("/Housekeeping-quiz")}>Start Assesment</a>
             </div>
