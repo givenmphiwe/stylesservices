@@ -11,7 +11,7 @@ export const HousekeepingQuiz = () => {
 			answerOptions: [
 				{ answerText: 'A clean and tidy space will always be welcoming', isCorrect: true },
 				{ answerText: 'Show interest in what is being done.', isCorrect: false },
-				{ answerText: '', isCorrect: false },
+				{ answerText: 'Cleaning only the floor', isCorrect: false },
 				{ answerText: 'Consistance in doing your duties.', isCorrect: false },
 			],
 		},
@@ -21,7 +21,7 @@ export const HousekeepingQuiz = () => {
 				{ answerText: 'True', isCorrect: true },
 				{ answerText: 'False', isCorrect: false },
 				{ answerText: 'I don`t know', isCorrect: false },
-				{ answerText: '', isCorrect: false },
+				{ answerText: 'Maybe', isCorrect: false },
 			],
 		},
 		{
