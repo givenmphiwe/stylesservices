@@ -71,6 +71,16 @@ export const HousekeepingFour = () => {
                 </p>
               );
             })}
+
+            <h3>Replenishing Guest Supplies/Complimentary Items</h3>
+            {data.ReplenishingGuest?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
             <div className="strt-btn">
               <a onClick={() => navigate("/Housekeeping-four")}>Next</a>
             </div>
