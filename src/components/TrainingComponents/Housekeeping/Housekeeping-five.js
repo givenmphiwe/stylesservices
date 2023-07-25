@@ -31,7 +31,7 @@ export const HousekeepingFive = () => {
             
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Housekeeping-five")}>Start Assesment</a>
+              <a onClick={() => navigate("/Housekeeping-quiz")}>Start Assesment</a>
             </div>
           </div>
           <div className="icons-medi">

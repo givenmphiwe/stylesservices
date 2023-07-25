@@ -10,7 +10,7 @@ export const HealthQuiz = () => {
 			questionText: 'Often we communicate with others to..',
 			answerOptions: [
 				{ answerText: 'Avoid unnecessary noises', isCorrect: false },
-				{ answerText: 'Show interest in wht is being said.', isCorrect: true },
+				{ answerText: 'Show interest in what is being said.', isCorrect: true },
 				{ answerText: 'Strong decision making.', isCorrect: false },
 				{ answerText: 'Consistance in the work flow.', isCorrect: false },
 			],
