@@ -85,7 +85,7 @@ export const About = () => {
                 <img src="" alt=""/>
               </div>
               <div className="content-1">
-                <h3>Collen Dutch Maje</h3>
+                <h3>Esther</h3>
                 <h2>Operations Manager</h2>
                 <p>
                   We aim to be No.1 comapany in client satisfaction by striving
