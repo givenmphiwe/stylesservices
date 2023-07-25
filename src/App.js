@@ -42,6 +42,7 @@ import { HousekeepingOne } from "./components/TrainingComponents/Housekeeping/Ho
 import { HousekeepingTwo } from "./components/TrainingComponents/Housekeeping/Housekeeping-two";
 import { HousekeepingThree } from "./components/TrainingComponents/Housekeeping/Housekeeping-three";
 import { HousekeepingFour } from "./components/TrainingComponents/Housekeeping/Housekeeping-four";
+import { HousekeepingFive } from "./components/TrainingComponents/Housekeeping/Housekeeping-five";
 
 const App = () => {
   let routes = useRoutes([
@@ -86,6 +87,8 @@ const App = () => {
     { path: "Housekeeping-two", element: <HousekeepingTwo/>},
     { path: "Housekeeping-three", element: <HousekeepingThree/>},
     { path: "Housekeeping-four", element: <HousekeepingFour/>},
+    { path: "Housekeeping-five", element: <HousekeepingFive/>},
+
 
 
   ]);

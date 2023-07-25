@@ -9,7 +9,7 @@ export const HousekeepingThree = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sectionseight">
+    <div className="sectzi">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
