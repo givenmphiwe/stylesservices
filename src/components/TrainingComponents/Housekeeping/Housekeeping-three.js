@@ -5,7 +5,7 @@ import Housekeeping from "../assets/housekeeping.jpg";
 import data from "../Data/Housekeeping.json";
 import { useNavigate } from "react-router-dom";
 
-export const HousekeepingTwo = () => {
+export const HousekeepingThree = () => {
   const navigate = useNavigate();
 
   return (
@@ -13,13 +13,13 @@ export const HousekeepingTwo = () => {
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Housekeeping Training</h1>
+            <h1>Housekeeping Preparing</h1>
           </div>
 
           <div className="contety">
-            <h3>Role of Housekeeping</h3>
+            <h3>Preparing</h3>
 
-            {data.Role?.map((item, i) => {
+            {data.Preparing?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -27,9 +27,8 @@ export const HousekeepingTwo = () => {
               );
             })}
 
-            <h3>Hotel Housekeeping</h3>
-
-            {data.HotelHousekeeping?.map((item, i) => {
+            <h3>Cleaning Materials</h3>
+            {data.materials?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -37,9 +36,8 @@ export const HousekeepingTwo = () => {
               );
             })}
 
-
-            <h3>Steps to clean a hotel room</h3>
-            {data.steps?.map((item, i) => {
+            <h3>Knocking and Entering</h3>
+            {data.KnockingAndEntering?.map((item, i) => {
               return (
                 <p className="list-items" key={i}>
                   {item}
@@ -47,8 +45,25 @@ export const HousekeepingTwo = () => {
               );
             })}
 
+            <h3>Preparing for Cleaning</h3>
+            {data.prepareclean?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
+
+            <h3>Cleaning Guest Bedroom Areas</h3>
+            {data.GuestBedroom?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
             <div className="strt-btn">
-              <a onClick={() => navigate("/Housekeeping-three")}>Next</a>
+              <a onClick={() => navigate("/Housekeeping-four")}>Next</a>
             </div>
           </div>
           <div className="icons-medi">
