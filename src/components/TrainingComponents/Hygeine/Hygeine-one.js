@@ -83,6 +83,9 @@ export const HygeineOne = () => {
                 </p>
               );
             })}
+            <div className="image-sec">
+              <img src={Hygeine} />
+            </div>
 
             <h3>Food hygiene</h3>
             {data.Foodhygiene?.map((item, i) => {
@@ -94,7 +97,7 @@ export const HygeineOne = () => {
             })}
 
             <div className="strt-btn">
-              <a onClick={() => navigate("/Hygeine-one")}>Start</a>
+              <a onClick={() => navigate("/Hygeine-one")}>Start Quiz</a>
             </div>
           </div>
           <div className="icons-medi">
