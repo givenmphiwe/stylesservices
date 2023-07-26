@@ -92,6 +92,7 @@ export const HygeineOne = () => {
                 </p>
               );
             })}
+            
             <div className="strt-btn">
               <a onClick={() => navigate("/Hygeine-one")}>Start</a>
             </div>
