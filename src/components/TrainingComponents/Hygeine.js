@@ -2,28 +2,33 @@ import React from "react";
 import "./styles/Barmanintro.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Hygeine from "./assets/hygeine.jpg";
+import { useNavigate } from "react-router-dom";
+import data from "./Data/Hygeine.json";
 
 export const HygeineIntro = () => {
+  const navigate = useNavigate();
 
   return (
     <div className="sect">
       <div className="containa">
         <div className="content-sect">
           <div className="titl">
-            <h1>Hygeine Training</h1>
+            <h1>Hygeine Introduction</h1>
           </div>
 
           <div className="contety">
-            <h3>
-              Welcome to Hygeine assesment Training. We developed the training
-              assesment to equip you with skills and knowledge needed to be
-              succesful in the field and know more everyday.
-            </h3>
+            <h3>Hygiene</h3>
 
-            <p>Styles Services Group</p>
+            {data.intro?.map((item, i) => {
+              return (
+                <p className="list-items" key={i}>
+                  {item}
+                </p>
+              );
+            })}
 
             <div className="strt-btn">
-              <a>Start</a>
+              <a onClick={() => navigate("/Hygeine-one")}>Start</a>
             </div>
           </div>
           <div className="icons-medi">
