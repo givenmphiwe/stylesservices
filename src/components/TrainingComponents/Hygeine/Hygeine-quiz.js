@@ -7,7 +7,7 @@ export const HygeineQuiz = () => {
 
   const questions = [
 		{
-			questionText: 'Presentation is everything. The important factor is...',
+			questionText: '.',
 			answerOptions: [
 				{ answerText: 'A clean and tidy space will always be welcoming', isCorrect: true },
 				{ answerText: 'Show interest in what is being done.', isCorrect: false },
