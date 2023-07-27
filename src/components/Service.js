@@ -61,7 +61,7 @@ export const Services = () => {
         </p>
 
         <div className="content-box">
-          <div onClick={() => navigate("/Contact")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>HOSPITALITY</h2>
             <p>
@@ -70,7 +70,7 @@ export const Services = () => {
             </p>
           </div>
 
-          <div onClick={() => navigate("/Contact")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>HYGEINE</h2>
             <p>
@@ -80,7 +80,7 @@ export const Services = () => {
             </p>
           </div>
 
-          <div onClick={() => navigate("/Contact")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>HEALTH CARE</h2>
             <p>
