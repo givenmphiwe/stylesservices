@@ -60,7 +60,7 @@ export const Training = () => {
         </p>
 
         <div className="content-box">
-          <div onClick={() => navigate("/login")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>Barman</h2>
             <p>
@@ -81,7 +81,7 @@ export const Training = () => {
             </p>
           </div>
 
-          <div onClick={() => navigate("/Booktraining")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>Health</h2>
             <p>
@@ -90,7 +90,7 @@ export const Training = () => {
             </p>
           </div>
 
-          <div onClick={() => navigate("/Booktraining")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>Hygeine</h2>
             <p>
@@ -99,7 +99,7 @@ export const Training = () => {
             </p>
           </div>
 
-          <div onClick={() => navigate("/Booktraining")} className="card">
+          <div onClick={() => navigate("/TrainingLandin")} className="card">
             <FaMarkdown />
             <h2>HouseKeeping</h2>
             <p>
